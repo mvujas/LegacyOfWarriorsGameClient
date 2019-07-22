@@ -18,4 +18,5 @@ public class GlobalReference
 
     public GameClient GameClient { get; set; }
     public ExecutionQueue ExecutionQueue { get; set; }
+    public SceneController SceneController { get; set; }
 }

@@ -7,7 +7,7 @@ using ClientUtils;
 using System.Net;
 using Utils.Net;
 
-[RequireComponent(typeof(ExecutionQueue))]
+[RequireComponent(typeof(ExecutionQueue), typeof(SceneController))]
 public class GlobalReferenceInitializer : MonoBehaviour
 {
     #region EDITOR FIELD CLASSES
@@ -34,8 +34,19 @@ public class GlobalReferenceInitializer : MonoBehaviour
 
     private void Awake()
     {
+        InitializeGlobalReference();
+    }
+
+    private void InitializeGlobalReference()
+    {
         InitializeGameClient();
         SetExecutionQueue();
+        SetSceneController();
+    }
+
+    private void SetSceneController()
+    {
+        m_globalReference.SceneController = GetComponent<SceneController>();
     }
 
     private void SetExecutionQueue()
@@ -52,5 +63,14 @@ public class GlobalReferenceInitializer : MonoBehaviour
             bufferSize = networkSettings.bufferSize
         };
         m_globalReference.GameClient = new GameClient(spec);
+    }
+
+    private void OnDestroy()
+    {
+        GameClient gameClient = m_globalReference.GameClient;
+        if(gameClient != null && gameClient.IsActive())
+        {
+            gameClient.Disconnect();
+        }
     }
 }
