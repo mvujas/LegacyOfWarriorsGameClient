@@ -189,7 +189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: sceneNames.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: sceneNames.Array.data[0]
@@ -197,6 +197,86 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: startingScene
+      value: LoadingScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[1]
+      value: LoadingScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[2]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[3]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[4]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[5]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[6]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[7]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[8]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[9]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[10]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[11]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[12]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[13]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[14]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[15]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[16]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[17]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[18]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[19]
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: sceneNames.Array.data[20]
       value: SampleScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []

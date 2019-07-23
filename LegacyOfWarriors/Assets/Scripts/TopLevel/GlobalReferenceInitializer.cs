@@ -39,9 +39,9 @@ public class GlobalReferenceInitializer : MonoBehaviour
 
     private void InitializeGlobalReference()
     {
-        InitializeGameClient();
         SetExecutionQueue();
         SetSceneController();
+        InitializeGameClient();
     }
 
     private void SetSceneController()

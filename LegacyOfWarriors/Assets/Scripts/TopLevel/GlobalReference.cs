@@ -1,4 +1,5 @@
 ﻿using ClientUtils;
+using Remote.InGameObjects;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,4 +20,5 @@ public class GlobalReference
     public GameClient GameClient { get; set; }
     public ExecutionQueue ExecutionQueue { get; set; }
     public SceneController SceneController { get; set; }
+    public CardList CardList { get; private set; }
 }
