@@ -11,6 +11,10 @@ public class CustomSlider : MonoBehaviour
     #region EDITOR FIELDS
     [SerializeField]
     private float timeInSecondsToFillUp = 1;
+    [SerializeField]
+    private Image background = null;
+    [SerializeField]
+    private Image fill = null;
 
     private void OnValidate()
     {
@@ -56,5 +60,16 @@ public class CustomSlider : MonoBehaviour
                 OnSliderFillUp?.Invoke();
             }
         }
+    }
+
+    public void SetTransparency(float value)
+    {
+        Color backgroundColor = background.color;
+        backgroundColor.a = value;
+        background.color = backgroundColor;
+
+        Color fillColor = fill.color;
+        fillColor.a = value;
+        fill.color = fillColor;
     }
 }
