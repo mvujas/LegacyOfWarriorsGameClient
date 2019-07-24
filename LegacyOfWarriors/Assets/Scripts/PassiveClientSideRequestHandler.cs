@@ -12,15 +12,18 @@ public abstract class PassiveClientSideRequestHandler<T> : RequestHandler where 
 
     public IRemoteObject Handle(AsyncUserToken token, IRemoteObject request)
     {
-        Debug.Log("Usao!");
+#if UNITY_EDITOR
         try
         {
+#endif
             Handle(request as T);
+#if UNITY_EDITOR
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             executionQueue.Add(() => Debug.Log("Izuzetak: " + e.Message));
         }
+#endif
         return null;
     }
 

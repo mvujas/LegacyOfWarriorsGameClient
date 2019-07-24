@@ -1,5 +1,6 @@
 ﻿using ClientUtils;
 using Remote.Implementation;
+using Remote.InGameObjects;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using Utils.Delegates;
 
 delegate float TransitionFunction(float time, float start, float change, float duration);
 
+[RequireComponent(typeof(CardListLoader))]
 public class LoadingLogic : MonoBehaviour
 {
     [SerializeField]
@@ -27,6 +29,8 @@ public class LoadingLogic : MonoBehaviour
         logoFadeInTime = Mathf.Max(.1f, logoFadeInTime);
     }
 
+    private CardListLoader cardListLoader = null;
+
     private CustomSlider slider;
 
     private GlobalReference globalReference = GlobalReference.GetInstance();
@@ -43,6 +47,7 @@ public class LoadingLogic : MonoBehaviour
 
     private void Awake()
     {
+        cardListLoader = GetComponent<CardListLoader>();
         CheckAssignment();
         ResetGUI();
     }
@@ -68,6 +73,7 @@ public class LoadingLogic : MonoBehaviour
         }
         slider = loadingBar.GetComponent<CustomSlider>() ?? 
             throw new ArgumentNullException(nameof(loadingBar) + " is not custom loader!");
+        slider.OnSliderFillUp = OnLoadingFinished;
     }
 
     #region EYE CANDY
@@ -162,23 +168,51 @@ public class LoadingLogic : MonoBehaviour
         );
     }
 
+    private void RunInMainThread(Runnable func)
+    {
+        globalReference.ExecutionQueue.Add(func);
+    }
+
     private void CardListLoading(GameClient gameClient)
     {
-        ExecutionQueue executionQueue = globalReference.ExecutionQueue;
         infoText.text = "Učitavanje liste karata";
+        CardList currentCardList = cardListLoader.LoadCardList();
         gameClient.ChangeRequestMapper(new LoadingRequestMapper(
-            onUpToDate: () => executionQueue.Add(() => Debug.Log("Up TO Date!")),
-            onNotUpToDate: cl =>
-            {
-                executionQueue.Add(() => Debug.Log("Nova verzija stigla!"));
-            }
+            onUpToDate: () => RunInMainThread(() => FinishAddingNewCardList(currentCardList)),
+            onNotUpToDate: newCardList => RunInMainThread(() => FinishAddingNewCardList(newCardList, true))
         ));
-        gameClient.Send(new CardListRequest { Version = null });
+
+        CardListRequest request = new CardListRequest
+        {
+            Version = (currentCardList == null ? 
+                    null : 
+                    currentCardList.Vesion)
+        };
+
+        gameClient.Send(request);
+    }
+
+    private void FinishAddingNewCardList(CardList cardList, bool overwriteFile = false)
+    {
+        globalReference.CardList = cardList;
+        if(overwriteFile)
+        {
+            cardListLoader.SaveCardList(cardList);
+        }
+        slider.Percent = 1f;
+        StartAfterDelay(() => {
+            infoText.text = "";
+        }, .3f);
     }
 
     private void HandleFailedConnecting()
     {
         infoText.text = "Ne mogu se povezati";
+    }
+
+    private void OnLoadingFinished()
+    {
+        globalReference.SceneController.LoadScene("LoginScene");
     }
 
     #endregion

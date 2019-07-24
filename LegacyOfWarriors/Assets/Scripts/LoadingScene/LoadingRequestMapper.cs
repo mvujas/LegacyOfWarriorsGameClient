@@ -24,7 +24,6 @@ class CardListResponseHandle : PassiveClientSideRequestHandler<CardListResponse>
         {
             OnNotUpToDate?.Invoke(obj.CardList);
         }
-        Debug.Log("Ovde!");
     }
 }
 
