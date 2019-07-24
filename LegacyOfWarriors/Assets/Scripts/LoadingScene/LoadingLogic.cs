@@ -11,7 +11,7 @@ using Utils.Delegates;
 delegate float TransitionFunction(float time, float start, float change, float duration);
 
 [RequireComponent(typeof(CardListLoader))]
-public class LoadingLogic : MonoBehaviour
+public class LoadingLogic : MonoBehaviourWithAddOns
 {
     [SerializeField]
     private Image logoImage = null;
@@ -100,7 +100,7 @@ public class LoadingLogic : MonoBehaviour
     private void StartLoadingBarTransition()
     {
         StartCoroutine(PlayInTransition(linearTransition, loadingBarFadeInTime,
-            slider.SetTransparency, () => StartAfterDelay(StartActualLoading, .1f)));
+            slider.SetTransparency, () => ExecuteAfterDelay(StartActualLoading, .1f)));
     }
 
     private IEnumerator PlayInTransition(TransitionFunction transition, float time,
@@ -121,25 +121,14 @@ public class LoadingLogic : MonoBehaviour
 
     private void ShowTextAfterDelay(string text, float delay)
     {
-        StartAfterDelay(() => infoText.text = text, delay);
-    }
-
-    private void StartAfterDelay(Runnable func, float delay)
-    {
-        StartCoroutine(StartAfterDelayCoroutine(func, delay));
-    }
-
-    private IEnumerator StartAfterDelayCoroutine(Runnable func, float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        func?.Invoke();
+        ExecuteAfterDelay(() => infoText.text = text, delay);
     }
 
     #region LOADING 
     private void StartActualLoading()
     {
         infoText.text = "Započinjanje učitavanja";
-        StartAfterDelay(TryToConnect, .2f);
+        ExecuteAfterDelay(TryToConnect, .2f);
     }
 
     private void TryToConnect()
@@ -160,17 +149,12 @@ public class LoadingLogic : MonoBehaviour
         gameClient.Start(
             () => {
                 slider.Percent = .5f;
-                StartAfterDelay(() => CardListLoading(gameClient), .5f);
+                ExecuteAfterDelay(() => CardListLoading(gameClient), .5f);
             },
             () => {
-                StartAfterDelay(() => ConnectionAttempt(gameClient, currentTry + 1, maxTries), .2f);
+                ExecuteAfterDelay(() => ConnectionAttempt(gameClient, currentTry + 1, maxTries), .2f);
             }
         );
-    }
-
-    private void RunInMainThread(Runnable func)
-    {
-        globalReference.ExecutionQueue.Add(func);
     }
 
     private void CardListLoading(GameClient gameClient)
@@ -200,7 +184,7 @@ public class LoadingLogic : MonoBehaviour
             cardListLoader.SaveCardList(cardList);
         }
         slider.Percent = 1f;
-        StartAfterDelay(() => {
+        ExecuteAfterDelay(() => {
             infoText.text = "";
         }, .3f);
     }

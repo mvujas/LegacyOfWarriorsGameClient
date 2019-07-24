@@ -55,7 +55,7 @@ public class CardListLoader : MonoBehaviour
             }
             return true;
         }
-        catch(Exception e)
+        catch(Exception)
         {
             return false;
         }
