@@ -22,7 +22,7 @@ public class CardListLoader : MonoBehaviour
         }
         else
         {
-            basePath = "MyGame_Data/Resources";
+            basePath = "LegacyOfWarriors_Data/Resources";
         }
     }
 
@@ -49,10 +49,12 @@ public class CardListLoader : MonoBehaviour
         try
         {
             Utils.SeriabilityUtils.SaveObjectToFile(cardList, cardListFilePath);
+#if UNITY_EDITOR
             if (Application.isEditor)
             {
                 AssetDatabase.Refresh();
             }
+#endif
             return true;
         }
         catch(Exception)

@@ -191,7 +191,10 @@ public class LoadingLogic : MonoBehaviourWithAddOns
 
     private void HandleFailedConnecting()
     {
-        infoText.text = "Ne mogu se povezati";
+        infoText.color = Color.red;
+        infoText.text = "Greška: Ne može se uspostaviti veza sa serverom\n\nProzor će se automatski ugasiti za nekoliko trenutaka";
+
+        ExecuteAfterDelay(Application.Quit, 5f);
     }
 
     private void OnLoadingFinished()
