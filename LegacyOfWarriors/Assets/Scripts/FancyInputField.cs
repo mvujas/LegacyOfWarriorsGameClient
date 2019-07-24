@@ -4,46 +4,27 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(InputField))]
+[RequireComponent(typeof(InputField), typeof(ImageColorTransitionable))]
 public class FancyInputField : MonoBehaviourWithAddOns
 {
     [SerializeField]
-    private float animationDuration = 1f;
+    private PositionTransitionable placeholderPositionTransitionable = null;
     [SerializeField]
-    private Text placeholder = null;
-    [SerializeField]
-    private Transform placeholderInFocusPosition = null;
-
-    private Vector3 focusPosition;
-    private Vector3 outOfFocusPosition;
-
-    private void OnValidate()
-    {
-        animationDuration = Mathf.Max(.01f, animationDuration);
-    }
+    private TextColorTransitionable placeholderColorTransitionable = null;
 
     private InputField inputField = null;
     private bool isInFocus = false;
-    private bool isUIInFocus = false;
-    private TransitionFunction<Vector3> nesto = (t, b, c, d) =>
-    {
-        t /= d;
-        return c * t * t + b;
-    };
-    private float fullPathLength;
+
+    private ImageColorTransitionable imageColorTransitionable = null;
 
     private void Awake()
     {
-        outOfFocusPosition = placeholder.transform.position;
-        focusPosition = placeholderInFocusPosition.position;
-        fullPathLength = (outOfFocusPosition - focusPosition).magnitude;
+        if(placeholderPositionTransitionable == null)
+        {
+            throw new ArgumentNullException(nameof(placeholderPositionTransitionable));
+        }
+        imageColorTransitionable = GetComponent<ImageColorTransitionable>();
         inputField = GetComponent<InputField>();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     private void Update()
@@ -67,44 +48,28 @@ public class FancyInputField : MonoBehaviourWithAddOns
         }
     }
 
-    private void SetPlaceholderPosition(Vector3 newPosition)
+    public void OnFieldValueChange()
     {
-        placeholder.transform.position = newPosition;
-    }
-
-    private float PathLengthFromPlaceholderToPoint(Vector3 point)
-    {
-        return (point - placeholder.transform.position).magnitude;
-    }
-
-    private void AnimatePlaceholderMovementBetweenTargetPoints(Vector3 end)
-    {
-        Vector3 start = placeholder.transform.position;
-        float pathRatio = PathLengthFromPlaceholderToPoint(end) / fullPathLength;
-        float time = pathRatio * animationDuration;
-        Vector3 change = end - start;
-        PlayTransition<Vector3>(nesto, time, start, change, SetPlaceholderPosition);
+        if(inputField.text == "")
+        {
+            placeholderPositionTransitionable.GoToStart();
+        }
+        else
+        {
+            placeholderPositionTransitionable.GoToEnd();
+        }
     }
 
     private void OnFocusLost()
     {
-        if(inputField.text.Length == 0)
-        {
-            isUIInFocus = false;
-            AnimatePlaceholderMovementBetweenTargetPoints(outOfFocusPosition);
-        }
-        
+        imageColorTransitionable.ChangeColorToInitial();
+        placeholderColorTransitionable.ChangeColorToInitial();
     }
 
     private void OnFocusEntered()
     {
-        if (!isUIInFocus)
-        {
-            AnimatePlaceholderMovementBetweenTargetPoints(focusPosition);
-        }
-        isUIInFocus = true;
-        
+        imageColorTransitionable.ChangeColorToEnd();
+        placeholderColorTransitionable.ChangeColorToEnd();
     }
-
 
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Utils.Delegates;
 
+// Transition functions source: http://www.gizma.com/easing/
 public delegate T TransitionFunction<T>(float time, T start, T change, float duration);
 
 public class MonoBehaviourWithAddOns : MonoBehaviour
