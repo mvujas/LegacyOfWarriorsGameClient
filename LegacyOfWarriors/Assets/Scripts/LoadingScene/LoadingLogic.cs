@@ -8,7 +8,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using Utils.Delegates;
 
-delegate float TransitionFunction(float time, float start, float change, float duration);
 
 [RequireComponent(typeof(CardListLoader))]
 public class LoadingLogic : MonoBehaviourWithAddOns
@@ -35,12 +34,12 @@ public class LoadingLogic : MonoBehaviourWithAddOns
 
     private GlobalReference globalReference = GlobalReference.GetInstance();
 
-    private static TransitionFunction acceleratingTransition = (t, b, c, d) =>
+    private static TransitionFunction<float> acceleratingTransition = (t, b, c, d) =>
     {
         t /= d;
         return c * t * t * t * t + b;
     };
-    private static TransitionFunction linearTransition = (t, b, c, d) =>
+    private static TransitionFunction<float> linearTransition = (t, b, c, d) =>
     {
         return c * t / d + b;
     };
@@ -103,7 +102,7 @@ public class LoadingLogic : MonoBehaviourWithAddOns
             slider.SetTransparency, () => ExecuteAfterDelay(StartActualLoading, .1f)));
     }
 
-    private IEnumerator PlayInTransition(TransitionFunction transition, float time,
+    private IEnumerator PlayInTransition(TransitionFunction<float> transition, float time,
         Action<float> changeTransparency, Runnable endFunction = null)
     {
         for (float value = 0; value <= time; value += Time.fixedDeltaTime)
