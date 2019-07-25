@@ -10,19 +10,15 @@ public class SettingsMenuPanel : MonoBehaviourWithAddOns
     private GameObject settingsMenu = null;
     private ImageColorTransitionable imageColorTransitionable = null;
 
-    private bool isShown;
-
     private void Awake()
     {
         imageColorTransitionable = GetComponent<ImageColorTransitionable>();
-        isShown = gameObject.activeInHierarchy;
     }
 
     public void Show()
     {
-        if(!isShown)
+        if(!gameObject.activeSelf)
         {
-            isShown = true;
             settingsMenu.SetActive(false);
             gameObject.SetActive(true);
             imageColorTransitionable.ChangeColorToEnd();
@@ -32,9 +28,8 @@ public class SettingsMenuPanel : MonoBehaviourWithAddOns
 
     public void Hide()
     {
-        if (isShown)
+        if (gameObject.activeSelf)
         {
-            isShown = false;
             settingsMenu.SetActive(false);
             imageColorTransitionable.ChangeColorToInitial();
             ExecuteAfterDelay(() =>
