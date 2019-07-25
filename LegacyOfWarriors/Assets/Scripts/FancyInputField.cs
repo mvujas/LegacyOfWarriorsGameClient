@@ -14,6 +14,7 @@ public class FancyInputField : MonoBehaviourWithAddOns
 
     private InputField inputField = null;
     private bool isInFocus = false;
+    private bool isFieldActive = false;
 
     private ImageColorTransitionable imageColorTransitionable = null;
 
@@ -52,24 +53,49 @@ public class FancyInputField : MonoBehaviourWithAddOns
     {
         if(inputField.text == "")
         {
-            placeholderPositionTransitionable.GoToStart();
+            SetFieldStateToDeactivated();
         }
         else
         {
-            placeholderPositionTransitionable.GoToEnd();
+            SetFieldStateToActivated();
         }
     }
 
     private void OnFocusLost()
     {
-        imageColorTransitionable.ChangeColorToInitial();
-        placeholderColorTransitionable.ChangeColorToInitial();
+        if(inputField.text == "")
+        {
+            SetFieldStateToDeactivated();
+        }
     }
 
     private void OnFocusEntered()
     {
+        SetFieldStateToActivated();
+    }
+
+    private void SetFieldStateToActivated()
+    {
+        if(isFieldActive)
+        {
+            return;
+        }
+        isFieldActive = true;
         imageColorTransitionable.ChangeColorToEnd();
         placeholderColorTransitionable.ChangeColorToEnd();
+        placeholderPositionTransitionable.GoToEnd();
+    }
+
+    private void SetFieldStateToDeactivated()
+    {
+        if(!isFieldActive)
+        {
+            return;
+        }
+        isFieldActive = false;
+        imageColorTransitionable.ChangeColorToInitial();
+        placeholderColorTransitionable.ChangeColorToInitial();
+        placeholderPositionTransitionable.GoToStart();
     }
 
 }

@@ -68,5 +68,16 @@ public abstract class ColorTransitionable : MonoBehaviourWithAddOns
         AnimateChangeToTargetColor(endColor, exitPredicate);
     }
 
+    public void InstantChangeColorToInitial()
+    {
+        Debug.Log(initialColor);
+        SetColor(initialColor);
+    }
+
+    public void InstantChangeColorToEnd()
+    {
+        SetColor(endColor);
+    }
+
 }
 
