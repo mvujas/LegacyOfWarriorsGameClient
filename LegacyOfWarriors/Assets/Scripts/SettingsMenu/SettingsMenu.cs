@@ -6,9 +6,6 @@ using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviourWithAddOns
 {
-    [SerializeField]
-    private SettingsMenuPanel parentPanel = null;
-
     public void QuitGame()
     {
         Application.Quit();

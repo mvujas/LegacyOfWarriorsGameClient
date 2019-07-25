@@ -19,6 +19,10 @@ public class ResolutionController : MonoBehaviourWithAddOns
 
     private void PrepareValues()
     {
+        foreach (var res in resolutions)
+        {
+            Debug.Log(res.width + "x" + res.height + " : " + res.refreshRate);
+        }
         List<string> resolutionStringList = resolutions.Select(res => res.ToString()).ToList<string>();
         dropdown.AddOptions(resolutionStringList);
     }
