@@ -198,7 +198,7 @@ public class LoadingLogic : MonoBehaviourWithAddOns
 
     private void OnLoadingFinished()
     {
-        globalReference.SceneController.LoadScene("LoginScene");
+        globalReference.SceneController.LoadScene("HomeScene");
     }
 
     #endregion

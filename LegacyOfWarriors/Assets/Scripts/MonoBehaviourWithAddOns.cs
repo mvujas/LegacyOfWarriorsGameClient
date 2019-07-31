@@ -9,6 +9,8 @@ public delegate T TransitionFunction<T>(float time, T start, T change, float dur
 
 public class MonoBehaviourWithAddOns : MonoBehaviour
 {
+    protected GlobalReference globalReference = GlobalReference.GetInstance();
+
     public static void RunInMainThread(Runnable function)
     {
         GlobalReference.GetInstance().ExecutionQueue.Add(function);
