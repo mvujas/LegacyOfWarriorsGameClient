@@ -32,8 +32,6 @@ public class LoadingLogic : MonoBehaviourWithAddOns
 
     private CustomSlider slider;
 
-    private GlobalReference globalReference = GlobalReference.GetInstance();
-
     private static TransitionFunction<float> acceleratingTransition = (t, b, c, d) =>
     {
         t /= d;

@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Utils.Remote;
-using ClientUtils;
-using Remote.Implementation;
 using UnityEngine.UI;
 
-public class LoginLogic : TemporarySimpleGUIComponent
+public class RegistrationLogic : TemporarySimpleGUIComponent
 {
     [SerializeField]
     private Text infoText = null;
@@ -15,16 +13,15 @@ public class LoginLogic : TemporarySimpleGUIComponent
     private InputField usernameField = null;
     [SerializeField]
     private InputField passwordField = null;
+    [SerializeField]
+    private InputField repeatedPasswordField = null;
 
     [SerializeField]
     private InterSceneMultiGUIController interSceneMultiGUIController = null;
 
-    private GameClient m_gameClient = null;
-
-    private RemoteRequestMapper m_mapper = null;
     protected override RemoteRequestMapper GetRemoteRequestMapper()
     {
-        return m_mapper;
+        return null;
     }
 
     public override void Show()
@@ -41,20 +38,14 @@ public class LoginLogic : TemporarySimpleGUIComponent
 
     private void Awake()
     {
-        if(usernameField == null || passwordField == null)
+        if (usernameField == null || passwordField == null || repeatedPasswordField == null)
         {
-            throw new ArgumentException("Login fields are not initialized");
+            throw new ArgumentException("Registration fields are not initialized");
         }
-
-        if(interSceneMultiGUIController == null)
+        if (interSceneMultiGUIController == null)
         {
             throw new ArgumentException("No GUI controller set");
         }
-
-        m_mapper = new LoginRequestMapper(
-            onLoginSuccessful: () => RunInMainThread(() => OnSuccessfulLogin()),
-            onLoginFailed: message => RunInMainThread(() => OnUnsuccessfulLogin(message))
-        );
     }
 
     private void ResetForm()
@@ -63,15 +54,19 @@ public class LoginLogic : TemporarySimpleGUIComponent
         {
             usernameField.text = "";
         }
-        if(passwordField != null)
+        if (passwordField != null)
         {
             passwordField.text = "";
+        }
+        if (repeatedPasswordField != null)
+        {
+            repeatedPasswordField.text = "";
         }
     }
 
     private void ResetInfoText()
     {
-        if(infoText != null)
+        if (infoText != null)
         {
             infoText.text = null;
         }
@@ -95,34 +90,8 @@ public class LoginLogic : TemporarySimpleGUIComponent
         }
     }
 
-    private void OnSuccessfulLogin()
+    public void HeadToLogin()
     {
-        ShowSuccessMessage("Uspesno ste se ulogovali!");
-    }
-
-    private void OnUnsuccessfulLogin(string errorMessage)
-    {
-        ShowErrorMessage(" *** GRESKA *** \n" + errorMessage);
-    }
-
-    private void Start()
-    {
-        m_gameClient = globalReference.GameClient;
-    }
-
-    public void TryToLogin()
-    {
-        string username = usernameField.text.Trim();
-        string password = passwordField.text.Trim();
-        m_gameClient.Send(new LoginRequest
-        {
-            Username = username,
-            Password = password
-        });
-    }
-
-    public void HeadToRegistration()
-    {
-        interSceneMultiGUIController.Show("RegistrationScreen");
+        interSceneMultiGUIController.Show("LoginScreen");
     }
 }

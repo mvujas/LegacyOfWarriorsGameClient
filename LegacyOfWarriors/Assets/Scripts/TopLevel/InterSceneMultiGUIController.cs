@@ -78,6 +78,10 @@ public class InterSceneMultiGUIController : MonoBehaviourWithAddOns
 
     private void Start()
     {
+        foreach(var guiPair in m_guiComponents)
+        {
+            guiPair.Value.Hide();
+        }
         if (m_activeOne != null)
         {
             Show(m_activeOne.name);
@@ -94,6 +98,7 @@ public class InterSceneMultiGUIController : MonoBehaviourWithAddOns
         {
             m_currentGui.Hide();
         }
+        m_currentGui = gui;
         gui.Show();
     }
 

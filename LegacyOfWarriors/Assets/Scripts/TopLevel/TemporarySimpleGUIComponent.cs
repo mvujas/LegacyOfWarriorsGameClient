@@ -15,7 +15,7 @@ public abstract class TemporarySimpleGUIComponent : MonoBehaviourWithAddOns
     public virtual void Show()
     {
         m_gameClient = m_globalReference.GameClient;
-        gameObject.SetActive(true);
+        transform.localScale = new Vector3(1, 1, 1);
         if (m_gameClient.IsActive())
         {
             m_gameClient.ChangeRequestMapper(GetRemoteRequestMapper());
@@ -24,6 +24,6 @@ public abstract class TemporarySimpleGUIComponent : MonoBehaviourWithAddOns
 
     public virtual void Hide()
     {
-        gameObject.SetActive(false);
+        transform.localScale = new Vector3(0, 0, 0);
     }
 }
