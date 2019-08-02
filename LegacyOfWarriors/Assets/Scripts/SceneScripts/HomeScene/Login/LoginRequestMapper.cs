@@ -9,14 +9,14 @@ using Remote.Implementation;
 
 public class LoginResponseHadler : PassiveClientSideRequestHandler<LoginResponse>
 {
-    public Runnable OnLoginSucessful { get; set; }
+    public Action<UserInfo> OnLoginSucessful { get; set; }
     public Action<string> OnLoginFailed { get; set; }
 
     public override void Handle(LoginResponse obj)
     {
         if(obj.Successfulness)
         {
-            OnLoginSucessful?.Invoke();
+            OnLoginSucessful?.Invoke(obj.UserInfo);
         }
         else
         {
@@ -29,7 +29,7 @@ public class LoginRequestMapper : RemoteRequestMapper
 {
     private Dictionary<Type, RequestHandler> m_mapper;
 
-    public LoginRequestMapper(Runnable onLoginSuccessful, Action<string> onLoginFailed)
+    public LoginRequestMapper(Action<UserInfo> onLoginSuccessful, Action<string> onLoginFailed)
     {
         m_mapper = new Dictionary<Type, RequestHandler>
         {

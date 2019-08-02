@@ -6,6 +6,7 @@ using Utils.Remote;
 using ClientUtils;
 using Remote.Implementation;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class LoginLogic : TemporarySimpleGUIComponent
 {
@@ -18,6 +19,12 @@ public class LoginLogic : TemporarySimpleGUIComponent
 
     [SerializeField]
     private InterSceneMultiGUIController interSceneMultiGUIController = null;
+
+    [SerializeField]
+    private UserInfoContainer userInfoContainer = null;
+
+    [SerializeField]
+    private EventTrigger registrationHeadingTrigger = null;
 
     private GameClient m_gameClient = null;
 
@@ -36,6 +43,7 @@ public class LoginLogic : TemporarySimpleGUIComponent
     {
         ResetInfoText();
         ResetForm();
+        EnableRegistrationHeadingLabel();
         base.Hide();
     }
 
@@ -48,25 +56,29 @@ public class LoginLogic : TemporarySimpleGUIComponent
 
         if(interSceneMultiGUIController == null)
         {
-            throw new ArgumentException("No GUI controller set");
+            throw new ArgumentNullException(nameof(interSceneMultiGUIController));
+        }
+
+        if(userInfoContainer == null)
+        {
+            throw new ArgumentNullException(nameof(userInfoContainer));
+        }
+
+        if(registrationHeadingTrigger == null)
+        {
+            throw new ArgumentNullException(nameof(registrationHeadingTrigger));
         }
 
         m_mapper = new LoginRequestMapper(
-            onLoginSuccessful: () => RunInMainThread(() => OnSuccessfulLogin()),
+            onLoginSuccessful: userInfo => RunInMainThread(() => OnSuccessfulLogin(userInfo)),
             onLoginFailed: message => RunInMainThread(() => OnUnsuccessfulLogin(message))
         );
     }
 
     private void ResetForm()
     {
-        if(usernameField != null)
-        {
-            usernameField.text = "";
-        }
-        if(passwordField != null)
-        {
-            passwordField.text = "";
-        }
+        usernameField.text = "";
+        passwordField.text = "";
     }
 
     private void ResetInfoText()
@@ -95,14 +107,27 @@ public class LoginLogic : TemporarySimpleGUIComponent
         }
     }
 
-    private void OnSuccessfulLogin()
+    private void OnSuccessfulLogin(UserInfo userInfo)
     {
-        ShowSuccessMessage("Uspesno ste se ulogovali!");
+        userInfoContainer.UserInfo = userInfo;
+        interSceneMultiGUIController.Show("HomeScreen");
+        EnableRegistrationHeadingLabel();
     }
 
     private void OnUnsuccessfulLogin(string errorMessage)
     {
         ShowErrorMessage(" *** GRESKA *** \n" + errorMessage);
+        EnableRegistrationHeadingLabel();
+    }
+
+    private void DisableRegistrationHeadingLabel()
+    {
+        registrationHeadingTrigger.enabled = false;
+    }
+
+    private void EnableRegistrationHeadingLabel()
+    {
+        registrationHeadingTrigger.enabled = true;
     }
 
     private void Start()
@@ -112,6 +137,7 @@ public class LoginLogic : TemporarySimpleGUIComponent
 
     public void TryToLogin()
     {
+        DisableRegistrationHeadingLabel();
         string username = usernameField.text.Trim();
         string password = passwordField.text.Trim();
         m_gameClient.Send(new LoginRequest
