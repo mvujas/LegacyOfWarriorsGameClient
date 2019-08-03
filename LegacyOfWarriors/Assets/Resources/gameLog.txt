@@ -1,0 +1,25 @@
+===== LOGTYPE: Log 
+ CONDITION: Should not be capturing when there is a hotcontrol
+ STACK TRACE: UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 

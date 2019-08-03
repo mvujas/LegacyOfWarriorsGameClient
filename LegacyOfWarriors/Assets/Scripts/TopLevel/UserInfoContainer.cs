@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using Remote.Implementation;
 
-public class UserInfoContainer : MonoBehaviourWithAddOns
+public class UserInfoContainer
 {
     private UserInfo m_userInfo = null;
     public UserInfo UserInfo

@@ -52,8 +52,9 @@ public class InterSceneMultiGUIController : MonoBehaviourWithAddOns
     private void RemoveNullContainers()
     {
         guis = guis.Where(gui => gui != null && gui.guiSwitcher != null && gui.name.Length > 0).ToArray();
-        bool isInvalid = m_activeOne.guiSwitcher == null || m_activeOne.name.Length == 0;
-        if (m_activeOne != null && isInvalid)
+        var activeGuis = guis.Where(gui => gui != null && gui.isActiveOnStart).ToArray();
+        m_activeOne = activeGuis.Length == 1 ? activeGuis[0] : null;
+        if (m_activeOne != null && (m_activeOne.guiSwitcher == null || m_activeOne.name.Length == 0))
         {
             m_activeOne = null;
         }

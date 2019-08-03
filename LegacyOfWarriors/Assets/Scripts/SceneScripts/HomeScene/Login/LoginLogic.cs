@@ -21,9 +21,6 @@ public class LoginLogic : TemporarySimpleGUIComponent
     private InterSceneMultiGUIController interSceneMultiGUIController = null;
 
     [SerializeField]
-    private UserInfoContainer userInfoContainer = null;
-
-    [SerializeField]
     private EventTrigger registrationHeadingTrigger = null;
 
     private GameClient m_gameClient = null;
@@ -57,11 +54,6 @@ public class LoginLogic : TemporarySimpleGUIComponent
         if(interSceneMultiGUIController == null)
         {
             throw new ArgumentNullException(nameof(interSceneMultiGUIController));
-        }
-
-        if(userInfoContainer == null)
-        {
-            throw new ArgumentNullException(nameof(userInfoContainer));
         }
 
         if(registrationHeadingTrigger == null)
@@ -109,7 +101,7 @@ public class LoginLogic : TemporarySimpleGUIComponent
 
     private void OnSuccessfulLogin(UserInfo userInfo)
     {
-        userInfoContainer.UserInfo = userInfo;
+        globalReference.UserInfoContainer.UserInfo = userInfo;
         interSceneMultiGUIController.Show("HomeScreen");
         EnableRegistrationHeadingLabel();
     }
