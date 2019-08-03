@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using Utils.Remote;
 using UnityEngine.UI;
+using Remote.Implementation;
 
 public class RegistrationLogic : TemporarySimpleGUIComponent
 {
@@ -19,9 +20,10 @@ public class RegistrationLogic : TemporarySimpleGUIComponent
     [SerializeField]
     private InterSceneMultiGUIController interSceneMultiGUIController = null;
 
+    private MutablePassiveRequestMapper m_mapper = new MutablePassiveRequestMapper();
     protected override RemoteRequestMapper GetRemoteRequestMapper()
     {
-        return null;
+        return m_mapper;
     }
 
     public override void Show()
@@ -31,7 +33,7 @@ public class RegistrationLogic : TemporarySimpleGUIComponent
 
     public override void Hide()
     {
-        ResetInfoText();
+        infoText?.SetRegularText("");
         ResetForm();
         base.Hide();
     }
@@ -46,52 +48,52 @@ public class RegistrationLogic : TemporarySimpleGUIComponent
         {
             throw new ArgumentException("No GUI controller set");
         }
+
+        m_mapper.AddHandlerAction<RegistrationResponse>(HandleRegistrationReponse);
     }
 
     private void ResetForm()
     {
-        if(usernameField != null)
-        {
-            usernameField.text = "";
-        }
-        if (passwordField != null)
-        {
-            passwordField.text = "";
-        }
-        if (repeatedPasswordField != null)
-        {
-            repeatedPasswordField.text = "";
-        }
+        usernameField.text = "";
+        passwordField.text = "";
+        repeatedPasswordField.text = "";
     }
 
-    private void ResetInfoText()
+    private void ShowError(string message)
     {
-        if (infoText != null)
-        {
-            infoText.text = null;
-        }
+        infoText?.SetErrorText("*** GREŠKA ***\n" + message);
     }
 
-    private void ShowErrorMessage(string errorMessage)
+    private void HandleRegistrationReponse(RegistrationResponse response)
     {
-        if (infoText != null)
+        if(response.Successfulness)
         {
-            infoText.color = Color.red;
-            infoText.text = errorMessage;
+            infoText?.SetSuccessText("Uspešno ste se registrovali");
+            ResetForm();
         }
-    }
-
-    private void ShowSuccessMessage(string successMessage)
-    {
-        if (infoText != null)
+        else
         {
-            infoText.color = Color.green;
-            infoText.text = successMessage;
+            ShowError(response.Message);
         }
     }
 
     public void HeadToLogin()
     {
         interSceneMultiGUIController.Show("LoginScreen");
+    }
+
+    public void HandleRegistrationClick()
+    {
+        string username = usernameField.text.Trim(),
+            password = passwordField.text.Trim(),
+            repeatedPassword = repeatedPasswordField.text.Trim();
+
+        if(password != repeatedPassword)
+        {
+            ShowError("Unete lozinke se ne slažu");
+            return;
+        }
+
+        globalReference.GameClient.Send(new RegistrationRequest { Username = username, Password = password });
     }
 }

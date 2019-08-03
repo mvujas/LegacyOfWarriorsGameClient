@@ -707,6 +707,26 @@ PrefabInstance:
       propertyPath: m_Text
       value: Registruj se
       objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HandleRegistrationClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 302972844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdd9c2ac83636a04aac63e3df910fa77, type: 3}
 --- !u!224 &672136802 stripped
@@ -1458,6 +1478,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: DUGME
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766373547466, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766373547466, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766373547466, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
         type: 3}

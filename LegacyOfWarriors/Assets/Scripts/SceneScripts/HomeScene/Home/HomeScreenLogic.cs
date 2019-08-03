@@ -21,7 +21,7 @@ public class HomeScreenLogic : TemporarySimpleGUIComponent
     private bool m_isInQueue = false;
     private bool m_waitingForResponse = false;
 
-    private HomeScreenRequestMapper m_mapper = null;
+    private MutablePassiveRequestMapper m_mapper = new MutablePassiveRequestMapper();
     protected override RemoteRequestMapper GetRemoteRequestMapper()
     {
         return m_mapper;
@@ -60,9 +60,8 @@ public class HomeScreenLogic : TemporarySimpleGUIComponent
             throw new ArgumentNullException(nameof(queueInfoText));
         }
 
-        m_mapper = new HomeScreenRequestMapper(
-            onQueueEntryResponse: HandleQueueEntryResponse,
-            onQueueExitReponse: HandleQueueExitResponse);
+        m_mapper.AddHandlerAction<QueueEntryResponse>(HandleQueueEntryResponse);
+        m_mapper.AddHandlerAction<QueueExitResponse>(HandleQueueExitResponse);
     }
 
     public void HandleQueueButtonClick()

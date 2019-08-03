@@ -4,9 +4,14 @@ using UnityEngine;
 using System;
 using Remote.Interface;
 
-public abstract class PostponedPassiveClientRequestHandler<T> : PassiveClientSideRequestHandler<T> where T : class, IRemoteObject
+public class PostponedPassiveClientRequestHandler<T> : PassiveClientSideRequestHandler<T> where T : class, IRemoteObject
 {
     public Action<T> Handler { get; set; } = null;
+
+    public PostponedPassiveClientRequestHandler(Action<T> handler)
+    {
+        Handler = handler;
+    }
 
     public override void Handle(T obj)
     {
