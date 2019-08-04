@@ -207,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: sceneNames.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: sceneNames.Array.data[0]
@@ -223,7 +223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: sceneNames.Array.data[2]
-      value: LoginScene
+      value: GameScene
       objectReference: {fileID: 0}
     - target: {fileID: 423953407, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
       propertyPath: sceneNames.Array.data[3]

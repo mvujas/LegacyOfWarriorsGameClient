@@ -1,4 +1,5 @@
 ﻿using ClientUtils;
+using Remote.Implementation;
 using Remote.InGameObjects;
 using System.Collections;
 using System.Collections.Generic;
@@ -22,4 +23,6 @@ public class GlobalReference
     public SceneController SceneController { get; set; }
     public CardList CardList { get; set; }
     public UserInfoContainer UserInfoContainer { get; private set; } = new UserInfoContainer();
+
+    public GameFoundNotification GameFoundNotification { get; set; }
 }
