@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using Utils.GameLogicUtils;
+
+public enum ClientSideCardPlace
+{
+    DECK,
+    HAND,
+    FIELD,
+    NONE
+}
 
 public class CardController : MonoBehaviourWithAddOns
 {
@@ -14,6 +23,8 @@ public class CardController : MonoBehaviourWithAddOns
     private Text attackText = null;
     [SerializeField]
     private Text healthText = null;
+
+    public ClientSideCardPlace cardPlace = ClientSideCardPlace.NONE;
 
     #region PROPERTIES
     private string m_cardName;
@@ -69,11 +80,21 @@ public class CardController : MonoBehaviourWithAddOns
         }
     }
 
+    static private System.Random rnd = new System.Random();
+
     private void Start()
     {
         CardName = "Cica glisa";
-        Cost = 1;
-        Health = 2;
-        Attack = 5;
+        Cost = rnd.Next() % 5;
+        Health = rnd.Next() % 5;
+        Attack = rnd.Next() % 5;
+    }
+
+    public void ReplicateStats(CardController cardController)
+    {
+        CardName = cardController.CardName;
+        Cost = cardController.Cost;
+        Attack = cardController.Attack;
+        Health = cardController.Health;
     }
 }
