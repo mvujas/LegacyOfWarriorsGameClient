@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Remote.InGameObjects;
 
 public class HandStringController : MonoBehaviourWithAddOns
 {
@@ -16,9 +17,9 @@ public class HandStringController : MonoBehaviourWithAddOns
         }
     }
 
-    public void SetCardStats(CardController cardController)
+    public void SetCardStats(CardInGame cardInGame)
     {
-        this.cardController.ReplicateStats(cardController);
+        cardController.ReplicateStats(cardInGame);
     }
 
     public void SetZRotation(float zRotation)

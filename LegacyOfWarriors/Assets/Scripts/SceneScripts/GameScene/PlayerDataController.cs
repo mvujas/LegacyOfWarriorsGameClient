@@ -7,13 +7,13 @@ using UnityEngine.UI;
 public class PlayerDataController : MonoBehaviourWithAddOns
 {
     [SerializeField]
-    private Text deckSizeText;
+    private Text deckSizeText = null;
     [SerializeField]
-    private Text handSizeText;
+    private Text handSizeText = null;
     [SerializeField]
-    private Text healthText;
+    private Text healthText = null;
     [SerializeField]
-    private Text manaText;
+    private Text manaText = null;
 
     #region PROPERTIES
 

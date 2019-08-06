@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using Utils.GameLogicUtils;
+using Remote.InGameObjects;
 
 public enum ClientSideCardPlace
 {
@@ -80,14 +81,13 @@ public class CardController : MonoBehaviourWithAddOns
         }
     }
 
-    static private System.Random rnd = new System.Random();
-
-    private void Start()
+    public void ReplicateStats(CardInGame cardInGame)
     {
-        CardName = "Cica glisa";
-        Cost = rnd.Next() % 5;
-        Health = rnd.Next() % 5;
-        Attack = rnd.Next() % 5;
+        var card = cardInGame.Card;
+        CardName = card.Name;
+        Cost = cardInGame.Cost;
+        Attack = cardInGame.Attack;
+        Health = cardInGame.Health;
     }
 
     public void ReplicateStats(CardController cardController)
