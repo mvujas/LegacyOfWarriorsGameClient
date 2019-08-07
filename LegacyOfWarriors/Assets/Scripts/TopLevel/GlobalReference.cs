@@ -22,6 +22,8 @@ public class GlobalReference
     public ExecutionQueue ExecutionQueue { get; set; }
     public SceneController SceneController { get; set; }
     public CardList CardList { get; set; }
+    public CardSpriteCatalogue SpriteCatalogue { get; set; }
+
     public UserInfoContainer UserInfoContainer { get; private set; } = new UserInfoContainer();
 
     public GameFoundNotification GameFoundNotification { get; set; }

@@ -1312,7 +1312,8 @@ MonoBehaviour:
   costText: {fileID: 2644602920267403506}
   attackText: {fileID: 2644602919994693872}
   healthText: {fileID: 2644602921097692572}
-  cardPlace: 3
+  cardImage: {fileID: 2644602919722617967}
+  cardPlace: 2
 --- !u!114 &2579165496533246162
 MonoBehaviour:
   m_ObjectHideFlags: 0

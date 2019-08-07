@@ -24,6 +24,8 @@ public class CardController : MonoBehaviourWithAddOns
     private Text attackText = null;
     [SerializeField]
     private Text healthText = null;
+    [SerializeField]
+    private Image cardImage = null;
 
     public ClientSideCardPlace cardPlace = ClientSideCardPlace.NONE;
 
@@ -71,6 +73,18 @@ public class CardController : MonoBehaviourWithAddOns
             healthText.text = value.ToString();
         }
     }
+
+    private string m_imageName;
+    public string ImageName
+    {
+        get => m_imageName;
+        set
+        {
+            m_imageName = value;
+            globalReference.SpriteCatalogue.GetSprite(value, out Sprite sprite);
+            cardImage.sprite = sprite;
+        }
+    }
     #endregion
 
     private void Awake()
@@ -79,11 +93,16 @@ public class CardController : MonoBehaviourWithAddOns
         {
             throw new ArgumentNullException("Card texts are not set");
         }
+        if (cardImage == null)
+        {
+            throw new ArgumentNullException("Card image is not set");
+        }
     }
 
     public void ReplicateStats(CardInGame cardInGame)
     {
         var card = cardInGame.Card;
+        ImageName = card.ClientSideImage;
         CardName = card.Name;
         Cost = cardInGame.Cost;
         Attack = cardInGame.Attack;
@@ -92,6 +111,7 @@ public class CardController : MonoBehaviourWithAddOns
 
     public void ReplicateStats(CardController cardController)
     {
+        ImageName = cardController.ImageName;
         CardName = cardController.CardName;
         Cost = cardController.Cost;
         Attack = cardController.Attack;
