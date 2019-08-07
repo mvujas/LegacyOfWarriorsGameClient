@@ -14,8 +14,9 @@ public abstract class PassiveRequestMapper : RemoteRequestMapper
         return mapperDictionary;
     }
 
-    protected override IRemoteObject InvalidTypeRepsonse()
+    protected override IRemoteObject InvalidTypeRepsonse(IRemoteObject remoteObject)
     {
+        Debug.Log("Invalid response: " + remoteObject.GetType());
         return null;
     }
 }

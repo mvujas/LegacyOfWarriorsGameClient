@@ -53,7 +53,8 @@ public class BoardSideController : MonoBehaviourWithAddOns
         }
         return false;
     }
-
+    
+    /*
     #region DEBUGGING
     
     private void Start()
@@ -104,4 +105,5 @@ public class BoardSideController : MonoBehaviourWithAddOns
     }
 
     #endregion
+    */
 }

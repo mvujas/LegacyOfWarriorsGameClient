@@ -47,21 +47,22 @@ public class HomeScreenLogic : TemporarySimpleGUIComponent
 
     private void Awake()
     {
-        if(userInfoText == null)
+        if (userInfoText == null)
         {
             throw new ArgumentNullException(nameof(userInfoText));
         }
-        if(findMatchButtonText == null)
+        if (findMatchButtonText == null)
         {
             throw new ArgumentNullException(nameof(findMatchButtonText));
         }
-        if(queueInfoText == null)
+        if (queueInfoText == null)
         {
             throw new ArgumentNullException(nameof(queueInfoText));
         }
 
         m_mapper.AddHandlerAction<QueueEntryResponse>(HandleQueueEntryResponse);
         m_mapper.AddHandlerAction<QueueExitResponse>(HandleQueueExitResponse);
+        m_mapper.AddHandlerAction<GameFoundNotification>(HandleGameFoundNotification);
     }
 
     public void HandleQueueButtonClick()
@@ -122,5 +123,11 @@ public class HomeScreenLogic : TemporarySimpleGUIComponent
             queueInfoText.SetErrorText("*** GREŠKA PRI IZLASKU IZ REDA ***\n" + response.Message);
         }
         m_waitingForResponse = false;
+    }
+
+    private void HandleGameFoundNotification(GameFoundNotification notification)
+    {
+        globalReference.GameFoundNotification = notification;
+        globalReference.SceneController.LoadScene("GameScene");
     }
 }

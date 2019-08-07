@@ -107,3 +107,137 @@
 ===== LOGTYPE: Log 
  CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
  STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Igra nadjena!
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+HomeScreenLogic:HandleGameFoundNotification(GameFoundNotification) (at Assets/Scripts/SceneScripts/HomeScene/Home/HomeScreenLogic.cs:130)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSideController.cs:84)
+
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSideController.cs:84)
+
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+HandController:Update() (at Assets/Scripts/SceneScripts/GameScene/HandController.cs:149)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSideController.cs:84)
+
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSideController.cs:84)
+
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+HandController:Update() (at Assets/Scripts/SceneScripts/GameScene/HandController.cs:149)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSideController.cs:84)
+
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSideController.cs:84)
+
+===== LOGTYPE: Log 
+ CONDITION: Removing: True
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+HandController:Update() (at Assets/Scripts/SceneScripts/GameScene/HandController.cs:149)
+

@@ -118,7 +118,7 @@ public class HandController : MonoBehaviourWithAddOns
         m_handStringControllerPool.ReleaseObject(handString);
     }
 
-
+    /*
     #region DEBUGGING
     private void Start()
     {
@@ -150,4 +150,5 @@ public class HandController : MonoBehaviourWithAddOns
         }
     }
     #endregion
+    */
 }

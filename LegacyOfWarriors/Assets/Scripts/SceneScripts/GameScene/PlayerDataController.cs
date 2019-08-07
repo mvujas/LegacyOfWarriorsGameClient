@@ -59,11 +59,14 @@ public class PlayerDataController : MonoBehaviourWithAddOns
         }
     }
 
+
     private void Start()
     {
+        /*
         DeckSize = 5;
         HandSize = 10;
         Health = 0;
         Mana = 15;
+        */
     }
 }

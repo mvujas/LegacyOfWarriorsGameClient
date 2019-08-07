@@ -14,6 +14,7 @@ public class GameInitializer : MonoBehaviourWithAddOns
     [SerializeField]
     private Text enemyNameTagText = null;
 
+    #region DEBUGGING
     private GameFoundNotification GetDummyNotification()
     {
         return new GameFoundNotification
@@ -26,6 +27,7 @@ public class GameInitializer : MonoBehaviourWithAddOns
     {
         return new UserInfo { Username = "YOU" };
     }
+    #endregion
 
     private void Awake()
     {
@@ -45,10 +47,20 @@ public class GameInitializer : MonoBehaviourWithAddOns
 
     private void Start()
     {
+        //UserInfo userInfo = globalReference.UserInfoContainer.UserInfo;
+        //GameFoundNotification gameNotification = globalReference.GameFoundNotification;
+
         UserInfo userInfo = GetDummyUserInfo();
         GameFoundNotification gameNotification = GetDummyNotification();
 
         PrepareNameTags(userInfo, gameNotification.EnemyInfo);
+
+        NotifyReadyStatus();
+    }
+
+    private void NotifyReadyStatus()
+    {
+        //globalReference.GameClient.Send(null);
     }
 
     private void PrepareNameTags(UserInfo playerInfo, UserInfo enemyInfo)
