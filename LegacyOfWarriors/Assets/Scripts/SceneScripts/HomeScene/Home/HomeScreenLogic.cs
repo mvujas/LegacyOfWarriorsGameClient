@@ -86,7 +86,7 @@ public class HomeScreenLogic : TemporarySimpleGUIComponent
     {
         globalReference.GameClient.Send(new QueueEntryRequest
         {
-            Deck = new int[] { 0, 0, 0, 0 }
+            Deck = new int[] { 0, 0, 0, 0, 1, 1, 1 }
         });
     }
 

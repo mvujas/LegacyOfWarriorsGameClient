@@ -57,17 +57,17 @@ public class GameInitializer : MonoBehaviourWithAddOns
 
     private void Start()
     {
-        //UserInfo userInfo = globalReference.UserInfoContainer.UserInfo;
-        //GameFoundNotification gameNotification = globalReference.GameFoundNotification;
+        UserInfo userInfo = globalReference.UserInfoContainer.UserInfo;
+        GameFoundNotification gameNotification = globalReference.GameFoundNotification;
 
-        UserInfo userInfo = GetDummyUserInfo();
-        GameFoundNotification gameNotification = GetDummyNotification();
+        //UserInfo userInfo = GetDummyUserInfo();
+        //GameFoundNotification gameNotification = GetDummyNotification();
 
         PrepareNameTags(userInfo, gameNotification.EnemyInfo);
 
         PreparePlayerDatas(gameNotification);
 
-        //NotifyReadyStatus();
+        NotifyReadyStatus();
     }
 
     private void PreparePlayerDatas(GameFoundNotification gameNotification)

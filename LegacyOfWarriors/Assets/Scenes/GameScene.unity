@@ -527,8 +527,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSprite: {fileID: 21300000, guid: 8d2b60cb08b9a4e4e86f966aa3694bca, type: 3}
   catalogueEntries:
-  - spriteKey: karta1
+  - spriteKey: druid
     sprite: {fileID: 21300000, guid: ac96b96829f39ae408f7ab9a357c8982, type: 3}
+  - spriteKey: muppet
+    sprite: {fileID: 21300000, guid: 253842ffd4fa3024dbc855fdb4889ff0, type: 3}
 --- !u!114 &398292158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3812,19 +3814,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: set_text
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: Show
+      - m_Target: {fileID: 398292160}
+        m_MethodName: HandleEndTurn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
