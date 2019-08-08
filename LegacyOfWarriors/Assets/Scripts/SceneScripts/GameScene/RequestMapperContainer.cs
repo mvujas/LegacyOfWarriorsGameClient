@@ -6,4 +6,9 @@ using System;
 public class RequestMapperContainer : MonoBehaviourWithAddOns
 {
     public MutablePassiveRequestMapper RequestMapper { get; private set; } = new MutablePassiveRequestMapper();
+
+    private void Awake()
+    {
+        globalReference.GameClient.ChangeRequestMapper(RequestMapper);
+    }
 }

@@ -2,24 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Remote.Implementation;
+using Remote.InGameObjects;
 
 public class MainGameLogicController : MonoBehaviourWithAddOns
 {
-    [SerializeField]
-    private StartingGamePanelDisabler panelDisabler = null;
-    [SerializeField]
-    private HandController playersHandController = null;
-    [SerializeField]
-    private BoardSideController playersBoardSideController = null;
-    [SerializeField]
-    private BoardSideController enemiesBoardSideController = null;
-    [SerializeField]
-    private PlayerDataController playersDataController = null;
-    [SerializeField]
-    private PlayerDataController enemiesDataController = null;
+    public StartingGamePanelDisabler panelDisabler = null;
+    public HandController playersHandController = null;
+    public BoardSideController playersBoardSideController = null;
+    public BoardSideController enemiesBoardSideController = null;
+    public PlayerDataController playersDataController = null;
+    public PlayerDataController enemiesDataController = null;
 
-
-    private MutablePassiveRequestMapper m_requestMapper = new MutablePassiveRequestMapper();
+    [SerializeField]
+    private RequestMapperContainer mapperContainer = null;
 
     private void CheckSerializedFieldsForNull()
     {
@@ -47,15 +43,48 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         {
             throw new ArgumentNullException(nameof(enemiesDataController));
         }
+
+        if (mapperContainer == null)
+        {
+            throw new ArgumentNullException(nameof(mapperContainer));
+        }
+    }
+
+    private void SetHandlers()
+    {
+        mapperContainer.RequestMapper.AddHandlerAction<StartingUserGameState>(HandleStartingGameState);
     }
 
     private void Awake()
     {
         CheckSerializedFieldsForNull();
+        SetHandlers();
     }
 
     private void Start()
     {
         
+    }
+
+    private void HandleStartingGameState(StartingUserGameState startingState)
+    {
+        panelDisabler.Disable();
+
+        Debug.Log("Starting state:");
+        Debug.Log(startingState.PlayerIndex);
+        Debug.Log(startingState.StartingDeck);
+    }
+
+    private void PrepareCardInGame(CardInGame cardInGame)
+    {
+        if (cardInGame == null)
+        {
+            return;
+        }
+        cardInGame.Card = globalReference.CardList.GetCardById(cardInGame.CardId);
+        if(cardInGame.Card == null)
+        {
+            throw new Exception("Trying to get card that doesn't exist in card list");
+        }
     }
 }

@@ -241,3 +241,75 @@ BoardSideController:Update() (at Assets/Scripts/SceneScripts/GameScene/BoardSide
  STACK TRACE: UnityEngine.Debug:Log(Object)
 HandController:Update() (at Assets/Scripts/SceneScripts/GameScene/HandController.cs:149)
 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Exception 
+ CONDITION: ArgumentNullException: Value cannot be null.
+Parameter name: mapperContainer
+ STACK TRACE: MainGameLogicController.CheckSerializedFieldsForNull () (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:48)
+MainGameLogicController.Awake () (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:59)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Starting state:
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:72)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:73)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Null
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:74)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+

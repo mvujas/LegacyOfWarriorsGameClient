@@ -13,13 +13,19 @@ public class GameInitializer : MonoBehaviourWithAddOns
     private Text playerNameTagText = null;
     [SerializeField]
     private Text enemyNameTagText = null;
+    [SerializeField]
+    private MainGameLogicController logicController = null;
 
     #region DEBUGGING
     private GameFoundNotification GetDummyNotification()
     {
         return new GameFoundNotification
         {
-            EnemyInfo = new UserInfo { Username = "ENEMY" }
+            EnemyInfo = new UserInfo { Username = "ENEMY" },
+            PlayersDeckSize = 30,
+            PlayersHealth = 24,
+            EnemiesDeckSize = 30,
+            EnemiesHealth = 25
         };
     }
 
@@ -43,24 +49,43 @@ public class GameInitializer : MonoBehaviourWithAddOns
         {
             throw new ArgumentNullException(nameof(enemyNameTagText));
         }
+        if (logicController == null)
+        {
+            throw new ArgumentNullException(nameof(logicController));
+        }
     }
 
     private void Start()
     {
-        //UserInfo userInfo = globalReference.UserInfoContainer.UserInfo;
-        //GameFoundNotification gameNotification = globalReference.GameFoundNotification;
+        UserInfo userInfo = globalReference.UserInfoContainer.UserInfo;
+        GameFoundNotification gameNotification = globalReference.GameFoundNotification;
 
-        UserInfo userInfo = GetDummyUserInfo();
-        GameFoundNotification gameNotification = GetDummyNotification();
+        //UserInfo userInfo = GetDummyUserInfo();
+        //GameFoundNotification gameNotification = GetDummyNotification();
 
         PrepareNameTags(userInfo, gameNotification.EnemyInfo);
+
+        PreparePlayerDatas(gameNotification);
 
         NotifyReadyStatus();
     }
 
+    private void PreparePlayerDatas(GameFoundNotification gameNotification)
+    {
+        logicController.playersDataController.DeckSize = gameNotification.PlayersDeckSize;
+        logicController.playersDataController.Health = gameNotification.PlayersHealth;
+        logicController.playersDataController.Mana = 0;
+        logicController.playersDataController.HandSize = 0;
+
+        logicController.enemiesDataController.DeckSize = gameNotification.EnemiesDeckSize;
+        logicController.enemiesDataController.Health = gameNotification.EnemiesHealth;
+        logicController.enemiesDataController.Mana = 0;
+        logicController.enemiesDataController.HandSize = 0;
+    }
+
     private void NotifyReadyStatus()
     {
-        //globalReference.GameClient.Send(null);
+        globalReference.GameClient.Send(new UserReadyNotification());
     }
 
     private void PrepareNameTags(UserInfo playerInfo, UserInfo enemyInfo)
