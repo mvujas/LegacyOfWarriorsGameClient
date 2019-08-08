@@ -9,6 +9,6 @@ public class RequestMapperContainer : MonoBehaviourWithAddOns
 
     private void Awake()
     {
-        globalReference.GameClient.ChangeRequestMapper(RequestMapper);
+        //globalReference.GameClient.ChangeRequestMapper(RequestMapper);
     }
 }

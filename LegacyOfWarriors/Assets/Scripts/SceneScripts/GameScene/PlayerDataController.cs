@@ -17,35 +17,47 @@ public class PlayerDataController : MonoBehaviourWithAddOns
 
     #region PROPERTIES
 
+    private int m_deckSize;
     public int DeckSize
     {
+        get => m_deckSize;
         set
         {
-            deckSizeText.text = value.ToString();
+            m_deckSize = Math.Max(0, value);
+            deckSizeText.text = m_deckSize.ToString();
         }
     }
 
+    private int m_handSize;
     public int HandSize
     {
+        get => m_handSize;
         set
         {
-            handSizeText.text = value.ToString();
+            m_handSize = Math.Max(0, value);
+            handSizeText.text = m_handSize.ToString();
         }
     }
 
+    private int m_health;
     public int Health
     {
+        get => m_health;
         set
         {
-            healthText.text = value.ToString();
+            m_health = value;
+            healthText.text = m_health.ToString();
         }
     }
 
+    private int m_mana;
     public int Mana
     {
+        get => m_mana;
         set
         {
-            manaText.text = value.ToString();
+            m_mana = Math.Max(0, value);
+            manaText.text = m_mana.ToString();
         }
     }
 

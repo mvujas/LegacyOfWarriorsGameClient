@@ -313,3 +313,108 @@ MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Asset
 ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
 ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Starting state:
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:73)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:74)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: System.Collections.Generic.LinkedList`1[Remote.InGameObjects.CardInGame]
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:75)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Warning 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(20,17): warning CS0649: Field 'PlayerDataController.m_deckSize' is never assigned to, and will always have its default value 0
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(31,17): error CS0102: The type 'PlayerDataController' already contains a definition for 'm_deckSize'
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(40,17): error CS0102: The type 'PlayerDataController' already contains a definition for 'm_deckSize'
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(40,17): error CS0102: The type 'PlayerDataController' already contains a definition for 'm_deckSize'
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(41,17): error CS0102: The type 'PlayerDataController' already contains a definition for 'm_deckSize'
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(41,17): error CS0102: The type 'PlayerDataController' already contains a definition for 'm_deckSize'
+ STACK TRACE: 
+===== LOGTYPE: Warning 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(42,17): warning CS0649: Field 'PlayerDataController.m_health' is never assigned to, and will always have its default value 0
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(55,16): error CS0103: The name 'm_mana' does not exist in the current context
+ STACK TRACE: 
+===== LOGTYPE: Warning 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\PlayerDataController.cs(53,17): warning CS0649: Field 'PlayerDataController.m_mana' is never assigned to, and will always have its default value 0
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\MainGameLogicController.cs(78,20): error CS1001: Identifier expected
+ STACK TRACE: 
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\MainGameLogicController.cs(78,20): error CS1002: ; expected
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Starting state:
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:73)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:74)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: System.Collections.Generic.LinkedList`1[Remote.InGameObjects.CardInGame]
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleStartingGameState(StartingUserGameState) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:75)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+

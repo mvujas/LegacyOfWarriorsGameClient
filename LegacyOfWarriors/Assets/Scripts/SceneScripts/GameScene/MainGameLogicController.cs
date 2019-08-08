@@ -13,6 +13,7 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
     public BoardSideController enemiesBoardSideController = null;
     public PlayerDataController playersDataController = null;
     public PlayerDataController enemiesDataController = null;
+    public EndTurnButtonStateController endTurnButton = null;
 
     [SerializeField]
     private RequestMapperContainer mapperContainer = null;
@@ -43,6 +44,10 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         {
             throw new ArgumentNullException(nameof(enemiesDataController));
         }
+        if (endTurnButton == null)
+        {
+            throw new ArgumentNullException(nameof(endTurnButton));
+        }
 
         if (mapperContainer == null)
         {
@@ -58,21 +63,29 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
     private void Awake()
     {
         CheckSerializedFieldsForNull();
-        SetHandlers();
+        //SetHandlers();
     }
 
     private void Start()
     {
-        
+        panelDisabler.Disable();
+        ExecuteAfterDelay(() => endTurnButton.ActiveState = true, 1f);
     }
 
     private void HandleStartingGameState(StartingUserGameState startingState)
     {
         panelDisabler.Disable();
 
-        Debug.Log("Starting state:");
-        Debug.Log(startingState.PlayerIndex);
-        Debug.Log(startingState.StartingDeck);
+        int initHandSize = startingState.StartingDeck.Count;
+        playersDataController.HandSize = initHandSize;
+        playersDataController.DeckSize -= initHandSize;
+        enemiesDataController.HandSize = initHandSize;
+        enemiesDataController.DeckSize -= initHandSize;
+        foreach (var cardInGame in startingState.StartingDeck)
+        {
+            PrepareCardInGame(cardInGame);
+            playersHandController.AddCard(cardInGame);
+        }
     }
 
     private void PrepareCardInGame(CardInGame cardInGame)
