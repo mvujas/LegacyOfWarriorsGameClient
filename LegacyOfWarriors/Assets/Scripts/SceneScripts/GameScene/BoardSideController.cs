@@ -53,6 +53,19 @@ public class BoardSideController : MonoBehaviourWithAddOns
         }
         return false;
     }
+
+    public CardController GetCardsController(int cardInGameId)
+    {
+        for (int i = 0; i < this.cardInGameArr.Length; i++)
+        {
+            var cardInGame = cardInGameArr[i];
+            if (cardInGame != null && cardInGame.InGameId == cardInGameId)
+            {
+                return cardPlaceholders[i];
+            }
+        }
+        return null;
+    }
     
     /*
     #region DEBUGGING

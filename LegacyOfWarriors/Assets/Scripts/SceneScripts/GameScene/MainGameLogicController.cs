@@ -73,6 +73,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         mapperContainer.RequestMapper.AddHandlerAction<PlayCardResponse>(HandlePlayCardResponse);
         mapperContainer.RequestMapper.AddHandlerAction<CardPlayedNotification>(HandleCardPlayedNotification);
         mapperContainer.RequestMapper.AddHandlerAction<GameFinishedNotification>(HandleGameFinishedNotification);
+        mapperContainer.RequestMapper.AddHandlerAction<AttackResponse>(HandleAttackResponse);
+        mapperContainer.RequestMapper.AddHandlerAction<AttackNotification>(HandleAttackNotification);
     }
 
     private void Awake()
@@ -208,6 +210,57 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
     {
         string finishText = gameFinishedNotification.WinnerPlayerId == PlayerIndex ? "VICTORY" : "DEFEAT";
         Debug.Log($"Game is over! Result: {finishText}");
+    }
+
+    private void HandleAttackNotification(AttackNotification attackNotification)
+    {
+        int attackingPlayer = attackNotification.AttackingPlayer;
+        int targetPlayer = attackNotification.TargetPlayer;
+
+        var attackedPlayerControllers = playersControllers[targetPlayer];
+        if(attackNotification.TargetUnit == null)
+        {
+            attackedPlayerControllers.dataController.Health = attackNotification.TargetRemainingHealth;
+        }
+        else
+        {
+            int targetUnit = (int)attackNotification.TargetUnit;
+
+            CardController cardController = attackedPlayerControllers.boardSideController.GetCardsController(targetUnit);
+
+            cardController.Health = attackNotification.TargetRemainingHealth;
+
+            if(cardController.Health <= 0)
+            {
+                attackedPlayerControllers.boardSideController.RemoveCard(targetUnit);
+            }
+        }
+
+        if(attackNotification.AttackingUnit == null)
+        {
+            throw new InvalidOperationException("Opcija da igrac napada jos nije podrzana");
+        }
+
+        int attackingUnit = (int)attackNotification.AttackingUnit;
+        var attackerBoardSideController = playersControllers[attackingPlayer].boardSideController;
+        CardController attackingCardController = attackerBoardSideController.GetCardsController(attackingUnit);
+
+        attackingCardController.Health = attackNotification.TargetRemainingHealth;
+
+        if (attackingCardController.Health <= 0)
+        {
+            attackerBoardSideController.RemoveCard(attackingUnit);
+        }
+
+        Debug.Log("Attack Notification: \n" +
+            $"Attacker: {attackNotification.AttackingPlayer} ({attackNotification.AttackingUnit}) - remaining HP {attackNotification.AttackerRemainingHealth}\n" +
+            $"Attacker: {attackNotification.TargetPlayer} ({attackNotification.TargetUnit}) - remaining HP {attackNotification.TargetRemainingHealth}");
+    }
+
+    private void HandleAttackResponse(AttackResponse response)
+    {
+        Debug.Log("Odgovor na zahtev za napad: \n" +
+            $"Uspesnost: {response.Successfulness}, poruka: {response.Message}");
     }
 
     #endregion

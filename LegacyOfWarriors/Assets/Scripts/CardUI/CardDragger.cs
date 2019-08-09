@@ -8,9 +8,12 @@ using UnityEngine.EventSystems;
 public class CardDragger : MouseInteractableCard
 {
     private CardController cardController = null;
+    private MainGameLogicController mainGameLogicController = null;
 
     private Vector3 initialPosition;
     private Vector3 initialRotation;
+
+    private static CardController hoveringController = null;
 
     public void SavePosition()
     {
@@ -33,6 +36,15 @@ public class CardDragger : MouseInteractableCard
 
             globalReference.GameClient.Send(new Remote.Implementation.PlayCardRequest { CardInGameId = cardController.CardInGameId });
         }
+
+        if(place == ClientSideCardPlace.FIELD)
+        {
+            globalReference.GameClient.Send(new Remote.Implementation.AttackRequest {
+                AttackingUnit = cardController.CardInGameId,
+                TargetPlayer = 1 - mainGameLogicController.PlayerIndex,
+                TargetUnit = (hoveringController?.CardInGameId)
+            });
+        }
     }
 
     protected override void OnPointerDragCallback()
@@ -45,9 +57,32 @@ public class CardDragger : MouseInteractableCard
         }
     }
 
+    protected override void OnPointerEnterCallback(PointerEventData eventData)
+    {
+        hoveringController = cardController;
+    }
+
+    protected override void OnPointerExitCallback(PointerEventData eventData)
+    {
+        hoveringController = null;
+    }
+
     private void Awake()
     {
         cardController = GetComponent<CardController>();
+
+        GameObject mainLogic = GameObject.FindWithTag("MainGameLogic");
+        if(mainLogic == null)
+        {
+            throw new ArgumentException("There's no main game logic");
+        }
+
+        mainGameLogicController = mainLogic.GetComponent<MainGameLogicController>();
+
+        if(mainGameLogicController == null)
+        {
+            throw new ArgumentException("Main game logic doesn't have MainGameLogicController component");
+        }
     }
 
     private void Start()
