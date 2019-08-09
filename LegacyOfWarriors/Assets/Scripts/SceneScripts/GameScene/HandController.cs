@@ -71,7 +71,7 @@ public class HandController : MonoBehaviourWithAddOns
         {
             var handString = cardContainer.handString;
             handString.SetZRotation(totalSideAngle - counter * singleAngle);
-            handString.transform.localPosition = new Vector3(0, 0, .01f * counter);
+            handString.transform.SetSiblingIndex(counter);
             counter++;
         }
     }
