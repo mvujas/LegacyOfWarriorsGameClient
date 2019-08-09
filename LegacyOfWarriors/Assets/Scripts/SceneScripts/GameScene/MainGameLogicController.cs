@@ -72,6 +72,7 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         mapperContainer.RequestMapper.AddHandlerAction<EndTurnResponse>(HandleEndTurnResponse);
         mapperContainer.RequestMapper.AddHandlerAction<PlayCardResponse>(HandlePlayCardResponse);
         mapperContainer.RequestMapper.AddHandlerAction<CardPlayedNotification>(HandleCardPlayedNotification);
+        mapperContainer.RequestMapper.AddHandlerAction<GameFinishedNotification>(HandleGameFinishedNotification);
     }
 
     private void Awake()
@@ -201,6 +202,12 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         currentPlayerControllers.dataController.Mana = cardPlayedNotification.RemainingMana;
         currentPlayerControllers.dataController.HandSize--;
         currentPlayerControllers.boardSideController.AddCard(cardPlayedNotification.PlayedCard);
+    }
+
+    private void HandleGameFinishedNotification(GameFinishedNotification gameFinishedNotification)
+    {
+        string finishText = gameFinishedNotification.WinnerPlayerId == PlayerIndex ? "VICTORY" : "DEFEAT";
+        Debug.Log($"Game is over! Result: {finishText}");
     }
 
     #endregion
