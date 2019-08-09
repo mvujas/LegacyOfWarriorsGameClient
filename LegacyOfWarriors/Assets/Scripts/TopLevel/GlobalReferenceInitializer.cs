@@ -34,6 +34,7 @@ public class GlobalReferenceInitializer : MonoBehaviour
 
     private void Awake()
     {
+        Application.runInBackground = true;
         InitializeGlobalReference();
     }
 

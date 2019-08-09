@@ -766,3 +766,1767 @@ MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Script
 ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
 ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Data karta nije u igračevoj ruci
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:183)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nema dovoljno mane da bi igrao kartu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nema dovoljno mane da bi igrao kartu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nema dovoljno mane da bi igrao kartu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:184)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:178)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nema dovoljno mane da bi igrao kartu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Error 
+ CONDITION: Assets\Scripts\SceneScripts\GameScene\MainGameLogicController.cs(174,31): error CS1733: Expected expression
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nije na potezu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 1
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 2
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 1
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 3
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Igrač nema dovoljno mane da bi igrao kartu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za igranje karte: 
+Uspesnost: False, poruka: Nema više mesta na terenu
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandlePlayCardResponse(PlayCardResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:186)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: FULL_HAND
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: SUCCESSFUL
+Fatique damage: 0
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 1
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 1
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 2
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 2
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Odgovor na zahtev za kraj poteza: 
+Uspesnost: True, poruka: 
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleEndTurnResponse(EndTurnResponse) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:180)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+
+===== LOGTYPE: Log 
+ CONDITION: Outcome: EMPTY_DECK
+Fatique damage: 3
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+MainGameLogicController:HandleNewTurnNotification(NewTurnNotification) (at Assets/Scripts/SceneScripts/GameScene/MainGameLogicController.cs:174)
+<>c__DisplayClass5_0:<Handle>b__0() (at Assets/Scripts/PostponedPassiveClientRequestHandler.cs:20)
+ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
+ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
+

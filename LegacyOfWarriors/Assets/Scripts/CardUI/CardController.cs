@@ -30,6 +30,8 @@ public class CardController : MonoBehaviourWithAddOns
     public ClientSideCardPlace cardPlace = ClientSideCardPlace.NONE;
 
     #region PROPERTIES
+    public int CardInGameId { get; set; }
+
     private string m_cardName;
     public string CardName
     {
@@ -103,6 +105,7 @@ public class CardController : MonoBehaviourWithAddOns
     {
         var card = cardInGame.Card;
         ImageName = card.ClientSideImage;
+        CardInGameId = cardInGame.InGameId;
         CardName = card.Name;
         Cost = cardInGame.Cost;
         Attack = cardInGame.Attack;
@@ -111,6 +114,7 @@ public class CardController : MonoBehaviourWithAddOns
 
     public void ReplicateStats(CardController cardController)
     {
+        CardInGameId = cardController.CardInGameId;
         ImageName = cardController.ImageName;
         CardName = cardController.CardName;
         Cost = cardController.Cost;

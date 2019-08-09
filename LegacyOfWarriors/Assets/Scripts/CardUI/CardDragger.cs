@@ -30,6 +30,8 @@ public class CardDragger : MouseInteractableCard
         {
             transform.localPosition = initialPosition;
             transform.localEulerAngles = initialRotation;
+
+            globalReference.GameClient.Send(new Remote.Implementation.PlayCardRequest { CardInGameId = cardController.CardInGameId });
         }
     }
 

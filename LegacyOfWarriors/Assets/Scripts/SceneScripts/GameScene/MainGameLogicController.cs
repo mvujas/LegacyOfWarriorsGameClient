@@ -70,6 +70,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         mapperContainer.RequestMapper.AddHandlerAction<StartingUserGameState>(HandleStartingGameState);
         mapperContainer.RequestMapper.AddHandlerAction<NewTurnNotification>(HandleNewTurnNotification);
         mapperContainer.RequestMapper.AddHandlerAction<EndTurnResponse>(HandleEndTurnResponse);
+        mapperContainer.RequestMapper.AddHandlerAction<PlayCardResponse>(HandlePlayCardResponse);
+        mapperContainer.RequestMapper.AddHandlerAction<CardPlayedNotification>(HandleCardPlayedNotification);
     }
 
     private void Awake()
@@ -166,8 +168,10 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
                 break;
             }
         }
-                    
+        currentPlayerControllers.dataController.Health = newTurnNotification.RemainingHealth;      
         currentPlayerControllers.dataController.Mana = newTurnNotification.Mana;
+
+        Debug.Log($"Outcome: {newTurnNotification.DrawingOutcome}\nFatique damage: {newTurnNotification.FatiqueDamage}");
         SwitchTurn(idOfPlayerWithTurn == PlayerIndex);
     }
 
@@ -175,6 +179,28 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
     {
         Debug.Log("Odgovor na zahtev za kraj poteza: \n" +
             $"Uspesnost: {response.Successfulness}, poruka: {response.Message}");
+    }
+
+    private void HandlePlayCardResponse(PlayCardResponse response)
+    {
+        Debug.Log("Odgovor na zahtev za igranje karte: \n" +
+            $"Uspesnost: {response.Successfulness}, poruka: {response.Message}");
+    }
+
+    private void HandleCardPlayedNotification(CardPlayedNotification cardPlayedNotification)
+    {
+        if(PlayerIndex == cardPlayedNotification.PlayerIndex)
+        {
+            playersHandController.RemoveCard(cardPlayedNotification.PlayedCard.InGameId);
+        }
+
+        PrepareCardInGame(cardPlayedNotification.PlayedCard);
+
+        var currentPlayerControllers = playersControllers[cardPlayedNotification.PlayerIndex];
+
+        currentPlayerControllers.dataController.Mana = cardPlayedNotification.RemainingMana;
+        currentPlayerControllers.dataController.HandSize--;
+        currentPlayerControllers.boardSideController.AddCard(cardPlayedNotification.PlayedCard);
     }
 
     #endregion
