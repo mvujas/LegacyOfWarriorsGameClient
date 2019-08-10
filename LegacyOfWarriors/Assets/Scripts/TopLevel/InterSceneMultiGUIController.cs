@@ -11,12 +11,14 @@ public class InterSceneMultiGUIController : MonoBehaviourWithAddOns
     {
         public string name;
         public TemporarySimpleGUIComponent guiSwitcher;
-        public bool isActiveOnStart = false;
+        public bool isActiveOnNonLoggedStart = false;
+        public bool isActiveOnLoggedStart = false;
     }
 
     [SerializeField]
     private TemporaryGUIContainer[] guis = { };
-    private TemporaryGUIContainer m_activeOne = null;
+    private TemporaryGUIContainer m_activeOneNonLogged = null;
+    private TemporaryGUIContainer m_activeOneLogged = null;
 
     private Dictionary<string, TemporarySimpleGUIComponent> m_guiComponents = 
         new Dictionary<string, TemporarySimpleGUIComponent>();
@@ -25,39 +27,85 @@ public class InterSceneMultiGUIController : MonoBehaviourWithAddOns
 
     private void OnValidate()
     {
-        var startingGuis = guis.Where(gui => gui != null && gui.isActiveOnStart).ToArray();
+        /*var startingGuis = guis.Where(gui => gui != null && gui.isActiveOnNonLoggedStart).ToArray();
         switch (startingGuis.Length)
         {
             case 0:
                 break;
             case 1:
-                m_activeOne = startingGuis[0];
+                m_activeOneNonLogged = startingGuis[0];
                 break;
             default:
-                if(m_activeOne == null)
+                if(m_activeOneNonLogged == null)
                 {
-                    m_activeOne = startingGuis[0];
+                    m_activeOneNonLogged = startingGuis[0];
                 }
                 foreach(var gui in startingGuis)
                 {
-                    if(gui != m_activeOne)
+                    if(gui != m_activeOneNonLogged)
                     {
-                        gui.isActiveOnStart = false;
+                        gui.isActiveOnNonLoggedStart = false;
+                    }
+                }
+                break;
+        }*/
+
+        AssureThatOnlyOneIsSelected(gui => gui.isActiveOnNonLoggedStart, (gui, val) => gui.isActiveOnNonLoggedStart = val, ref m_activeOneNonLogged);
+        AssureThatOnlyOneIsSelected(gui => gui.isActiveOnLoggedStart, (gui, val) => gui.isActiveOnLoggedStart = val, ref m_activeOneLogged);
+    }
+
+    private void AssureThatOnlyOneIsSelected(Func<TemporaryGUIContainer, bool> getter, Action<TemporaryGUIContainer, bool> setter, 
+        ref TemporaryGUIContainer selectedField)
+    { 
+        var startingGuis = guis.Where(gui => gui != null && getter.Invoke(gui)).ToArray();
+        switch (startingGuis.Length)
+        {
+            case 0:
+                break;
+            case 1:
+                selectedField = startingGuis[0];
+                break;
+            default:
+                if (selectedField == null)
+                {
+                    selectedField = startingGuis[0];
+                }
+                foreach (var gui in startingGuis)
+                {
+                    if (gui != selectedField)
+                    {
+                        setter.Invoke(gui, false);
                     }
                 }
                 break;
         }
     }
 
+    private void SelectActive(Func<TemporaryGUIContainer, bool> getter, ref TemporaryGUIContainer selectedField)
+    {
+        var activeGuis = guis.Where(gui => gui != null && getter.Invoke(gui)).ToArray();
+        selectedField = activeGuis.Length == 1 ? activeGuis[0] : null;
+
+        if (selectedField != null && (selectedField.guiSwitcher == null || selectedField.name.Length == 0))
+        {
+            selectedField = null;
+        }
+    }
+
     private void RemoveNullContainers()
     {
         guis = guis.Where(gui => gui != null && gui.guiSwitcher != null && gui.name.Length > 0).ToArray();
-        var activeGuis = guis.Where(gui => gui != null && gui.isActiveOnStart).ToArray();
-        m_activeOne = activeGuis.Length == 1 ? activeGuis[0] : null;
-        if (m_activeOne != null && (m_activeOne.guiSwitcher == null || m_activeOne.name.Length == 0))
+
+
+        /*var activeGuisNonLogged = guis.Where(gui => gui != null && gui.isActiveOnNonLoggedStart).ToArray();
+        m_activeOneNonLogged = activeGuisNonLogged.Length == 1 ? activeGuisNonLogged[0] : null;
+        if (m_activeOneNonLogged != null && (m_activeOneNonLogged.guiSwitcher == null || m_activeOneNonLogged.name.Length == 0))
         {
-            m_activeOne = null;
-        }
+            m_activeOneNonLogged = null;
+        }*/
+
+        SelectActive(gui => gui.isActiveOnLoggedStart, ref m_activeOneLogged);
+        SelectActive(gui => gui.isActiveOnNonLoggedStart, ref m_activeOneNonLogged);
     }
 
     private void PrepareDictionary()
@@ -83,9 +131,20 @@ public class InterSceneMultiGUIController : MonoBehaviourWithAddOns
         {
             guiPair.Value.Hide();
         }
-        if (m_activeOne != null)
+
+        if (globalReference.UserInfoContainer == null || globalReference.UserInfoContainer.UserInfo == null)
         {
-            Show(m_activeOne.name);
+            if (m_activeOneNonLogged != null)
+            {
+                Show(m_activeOneNonLogged.name);
+            }
+        }
+        else if(globalReference.UserInfoContainer.UserInfo != null)
+        {
+            if(m_activeOneLogged != null)
+            {
+                Show(m_activeOneLogged.name);
+            }
         }
     }
 

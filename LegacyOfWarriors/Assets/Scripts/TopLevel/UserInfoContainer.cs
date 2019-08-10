@@ -13,10 +13,7 @@ public class UserInfoContainer
         {
             if(m_userInfo == null || m_userInfo.Username == null)
             {
-                return new UserInfo
-                {
-                    Username = "Anonymous"
-                };
+                return null;
             }
             return m_userInfo;
         }

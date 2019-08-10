@@ -4378,3 +4378,37 @@ MainGameLogicController:HandleAttackResponse(AttackResponse) (at Assets/Scripts/
 ExecutionQueue:ExecuteTasks() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:35)
 ExecutionQueue:Update() (at Assets/Scripts/TopLevel/ExecutionQueue.cs:43)
 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: LoginScreen
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+InterSceneMultiGUIController:Start() (at Assets/Scripts/TopLevel/InterSceneMultiGUIController.cs:135)
+
+===== LOGTYPE: Log 
+ CONDITION: HomeScreen
+ STACK TRACE: UnityEngine.Debug:Log(Object)
+InterSceneMultiGUIController:Start() (at Assets/Scripts/TopLevel/InterSceneMultiGUIController.cs:136)
+
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 
+===== LOGTYPE: Log 
+ CONDITION: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+ STACK TRACE: 

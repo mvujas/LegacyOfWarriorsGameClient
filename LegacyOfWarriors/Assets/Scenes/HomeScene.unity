@@ -1566,13 +1566,16 @@ MonoBehaviour:
   guis:
   - name: LoginScreen
     guiSwitcher: {fileID: 1900204661}
-    isActiveOnStart: 1
+    isActiveOnNonLoggedStart: 1
+    isActiveOnLoggedStart: 0
   - name: RegistrationScreen
     guiSwitcher: {fileID: 302972844}
-    isActiveOnStart: 0
+    isActiveOnNonLoggedStart: 0
+    isActiveOnLoggedStart: 0
   - name: HomeScreen
     guiSwitcher: {fileID: 637800862}
-    isActiveOnStart: 0
+    isActiveOnNonLoggedStart: 0
+    isActiveOnLoggedStart: 1
 --- !u!4 &1487463950
 Transform:
   m_ObjectHideFlags: 0
