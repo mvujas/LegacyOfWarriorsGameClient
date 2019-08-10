@@ -29,6 +29,7 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
     public bool IsPlayersTurn { get; private set; } = false;
     public int PlayerIndex { get; private set; }
+    public int AcccumulativeTurn { get; private set; }
 
     private void CheckSerializedFieldsForNull()
     {
@@ -153,6 +154,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
     private void HandleNewTurnNotification(NewTurnNotification newTurnNotification)
     {
+        AcccumulativeTurn = newTurnNotification.AccumulativeTurnCount;
+
         var idOfPlayerWithTurn = newTurnNotification.PlayerIndex;
         if (idOfPlayerWithTurn == PlayerIndex)
         {
@@ -226,8 +229,6 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
         endGamePanelController.gameObject.SetActive(true);
         endGamePanelController.Show(isVictory);
-
-
     }
 
     private void HandleAttackNotification(AttackNotification attackNotification)
@@ -264,6 +265,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         CardController attackingCardController = attackerBoardSideController.GetCardsController(attackingUnit);
 
         attackingCardController.Health = attackNotification.AttackerRemainingHealth;
+
+        attackingCardController.LastAttackingTurn = AcccumulativeTurn;
 
         if (attackingCardController.Health <= 0)
         {

@@ -29,7 +29,7 @@ public class CardDragger : MouseInteractableCard
     protected override void OnPointerUpCallback(PointerEventData eventData)
     {
         var place = cardController.cardPlace;
-        if (place == ClientSideCardPlace.HAND)
+        if (place == ClientSideCardPlace.HAND && mainGameLogicController.IsPlayersTurn && mainGameLogicController.playersDataController.Mana >= cardController.Cost)
         {
             transform.localPosition = initialPosition;
             transform.localEulerAngles = initialRotation;
@@ -37,7 +37,7 @@ public class CardDragger : MouseInteractableCard
             globalReference.GameClient.Send(new Remote.Implementation.PlayCardRequest { CardInGameId = cardController.CardInGameId });
         }
 
-        if(place == ClientSideCardPlace.FIELD)
+        if(place == ClientSideCardPlace.FIELD && mainGameLogicController.IsPlayersTurn && mainGameLogicController.AcccumulativeTurn >= cardController.LastAttackingTurn)
         {
             globalReference.GameClient.Send(new Remote.Implementation.AttackRequest {
                 AttackingUnit = cardController.CardInGameId,
@@ -50,7 +50,7 @@ public class CardDragger : MouseInteractableCard
     protected override void OnPointerDragCallback()
     {
         var place = cardController.cardPlace;
-        if (place == ClientSideCardPlace.HAND)
+        if (place == ClientSideCardPlace.HAND && mainGameLogicController.IsPlayersTurn && mainGameLogicController.playersDataController.Mana >= cardController.Cost)
         {
             transform.position = Input.mousePosition;
             transform.eulerAngles = Vector3.zero;

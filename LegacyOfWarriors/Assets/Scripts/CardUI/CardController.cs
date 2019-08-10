@@ -31,6 +31,7 @@ public class CardController : MonoBehaviourWithAddOns
 
     #region PROPERTIES
     public int CardInGameId { get; set; }
+    public int LastAttackingTurn { get; set; }
 
     private string m_cardName;
     public string CardName
@@ -110,6 +111,7 @@ public class CardController : MonoBehaviourWithAddOns
         Cost = cardInGame.Cost;
         Attack = cardInGame.Attack;
         Health = cardInGame.Health;
+        LastAttackingTurn = cardInGame.LastAttackingTurn;
     }
 
     public void ReplicateStats(CardController cardController)
@@ -120,5 +122,6 @@ public class CardController : MonoBehaviourWithAddOns
         Cost = cardController.Cost;
         Attack = cardController.Attack;
         Health = cardController.Health;
+        LastAttackingTurn = cardController.LastAttackingTurn;
     }
 }
