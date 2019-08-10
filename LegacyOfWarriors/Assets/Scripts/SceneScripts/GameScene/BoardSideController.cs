@@ -66,6 +66,17 @@ public class BoardSideController : MonoBehaviourWithAddOns
         }
         return null;
     }
+
+    public IEnumerable<CardController> GetAllCardControllers()
+    {
+        for (int i = 0; i < cardInGameArr.Length; i++)
+        {
+            if(cardInGameArr[i] != null)
+            {
+                yield return cardPlaceholders[i];
+            }
+        }
+    }
     
     /*
     #region DEBUGGING

@@ -118,6 +118,18 @@ public class HandController : MonoBehaviourWithAddOns
         m_handStringControllerPool.ReleaseObject(handString);
     }
 
+    public IEnumerable<CardController> GetAllCardControllers()
+    {
+        foreach(var cardStringWrapper in m_cards)
+        {
+            var cardController = cardStringWrapper.handString.cardController;
+            if(cardController != null)
+            {
+                yield return cardController;
+            }
+        }
+    }
+
     /*
     #region DEBUGGING
     private void Start()

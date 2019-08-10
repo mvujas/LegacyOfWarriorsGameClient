@@ -6,8 +6,7 @@ using Remote.InGameObjects;
 
 public class HandStringController : MonoBehaviourWithAddOns
 {
-    [SerializeField]
-    private CardController cardController = null;
+    public CardController cardController = null;
 
     private void Awake()
     {

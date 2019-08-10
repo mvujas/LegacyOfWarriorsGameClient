@@ -126,6 +126,19 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         endTurnButton.ActiveState = isMyTurn;
     }
 
+    private void UpdateHighlightedCards()
+    {
+        foreach(var cardController in playersHandController.GetAllCardControllers())
+        {
+            cardController.IsHighlighted = (IsPlayersTurn && cardController.Cost <= playersDataController.Mana);
+        }
+
+        foreach(var cardController in playersBoardSideController.GetAllCardControllers())
+        {
+            cardController.IsHighlighted = (IsPlayersTurn && cardController.LastAttackingTurn < AcccumulativeTurn);
+        }
+    }
+
     #region HANDLERS
 
     private void HandleStartingGameState(StartingUserGameState startingState)
@@ -191,6 +204,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
         Debug.Log($"Outcome: {newTurnNotification.DrawingOutcome}\nFatique damage: {newTurnNotification.FatiqueDamage}");
         SwitchTurn(idOfPlayerWithTurn == PlayerIndex);
+
+        UpdateHighlightedCards();
     }
 
     private void HandleEndTurnResponse(EndTurnResponse response)
@@ -219,6 +234,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         currentPlayerControllers.dataController.Mana = cardPlayedNotification.RemainingMana;
         currentPlayerControllers.dataController.HandSize--;
         currentPlayerControllers.boardSideController.AddCard(cardPlayedNotification.PlayedCard);
+
+        UpdateHighlightedCards();
     }
 
     private void HandleGameFinishedNotification(GameFinishedNotification gameFinishedNotification)
@@ -276,6 +293,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         Debug.Log("Attack Notification: \n" +
             $"Attacker: {attackNotification.AttackingPlayer} ({attackNotification.AttackingUnit}) - remaining HP {attackNotification.AttackerRemainingHealth}\n" +
             $"Attacker: {attackNotification.TargetPlayer} ({attackNotification.TargetUnit}) - remaining HP {attackNotification.TargetRemainingHealth}");
+
+        UpdateHighlightedCards();
     }
 
     private void HandleAttackResponse(AttackResponse response)

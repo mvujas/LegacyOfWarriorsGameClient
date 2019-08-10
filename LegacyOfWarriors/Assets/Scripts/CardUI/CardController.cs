@@ -14,6 +14,12 @@ public enum ClientSideCardPlace
     NONE
 }
 
+public enum CardOwner
+{
+    PLAYER,
+    ENEMY
+}
+
 public class CardController : MonoBehaviourWithAddOns
 {
     [SerializeField]
@@ -26,6 +32,10 @@ public class CardController : MonoBehaviourWithAddOns
     private Text healthText = null;
     [SerializeField]
     private Image cardImage = null;
+    [SerializeField]
+    private GameObject cardHighlighter = null;
+
+    public CardOwner cardOwner = CardOwner.PLAYER;
 
     public ClientSideCardPlace cardPlace = ClientSideCardPlace.NONE;
 
@@ -86,6 +96,17 @@ public class CardController : MonoBehaviourWithAddOns
             m_imageName = value;
             globalReference.SpriteCatalogue.GetSprite(value, out Sprite sprite);
             cardImage.sprite = sprite;
+        }
+    }
+
+    private bool m_isHighlighted;
+    public bool IsHighlighted
+    {
+        get => m_isHighlighted;
+        set
+        {
+            m_isHighlighted = value;
+            cardHighlighter.SetActive(m_isHighlighted);
         }
     }
     #endregion
