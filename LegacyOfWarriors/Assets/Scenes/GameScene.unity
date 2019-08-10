@@ -644,12 +644,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b62a0d6d585e94aa3052a8070e3c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSprite: {fileID: 21300000, guid: 8d2b60cb08b9a4e4e86f966aa3694bca, type: 3}
+  defaultSprite: {fileID: 21300000, guid: e684354bbf624ec4bab962af6bea9ce0, type: 3}
   catalogueEntries:
-  - spriteKey: druid
+  - spriteKey: archer
+    sprite: {fileID: 21300000, guid: 8c94c763a6148e544a13f34386394009, type: 3}
+  - spriteKey: black-hole
+    sprite: {fileID: 21300000, guid: 9d7719da7b0daea4ca66813fe801633f, type: 3}
+  - spriteKey: flower
+    sprite: {fileID: 21300000, guid: d73b6df5e7278b146a9c8748b11496f0, type: 3}
+  - spriteKey: fortress
+    sprite: {fileID: 21300000, guid: e431ca2d8009b6a48af8ac5d67f23c1d, type: 3}
+  - spriteKey: protector
+    sprite: {fileID: 21300000, guid: d2376d87e01db16488a436638df3b8cf, type: 3}
+  - spriteKey: ram
+    sprite: {fileID: 21300000, guid: 905a8072a55f2f142a8600855ebb5553, type: 3}
+  - spriteKey: villager
     sprite: {fileID: 21300000, guid: ac96b96829f39ae408f7ab9a357c8982, type: 3}
-  - spriteKey: muppet
-    sprite: {fileID: 21300000, guid: 253842ffd4fa3024dbc855fdb4889ff0, type: 3}
+  - spriteKey: warrior
+    sprite: {fileID: 21300000, guid: 0098da5b4a9520347b6d286648e6c48b, type: 3}
+  - spriteKey: wizard
+    sprite: {fileID: 21300000, guid: 5e7ca6d8f52bc134fb67aca173fdb584, type: 3}
 --- !u!114 &398292158
 MonoBehaviour:
   m_ObjectHideFlags: 0

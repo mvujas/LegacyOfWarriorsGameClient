@@ -297,5 +297,9 @@ PrefabInstance:
       propertyPath: sceneNames.Array.data[20]
       value: SampleScene
       objectReference: {fileID: 0}
+    - target: {fileID: 423953406, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
+      propertyPath: networkSettings.host
+      value: 127.0.0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7272e1cee7d91fc43a62af65cd641558, type: 3}
