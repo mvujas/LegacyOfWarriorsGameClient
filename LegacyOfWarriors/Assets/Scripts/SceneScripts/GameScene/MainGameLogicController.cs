@@ -24,6 +24,8 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
     [SerializeField]
     private RequestMapperContainer mapperContainer = null;
+    [SerializeField]
+    private EndGamePanelController endGamePanelController = null;
 
     public bool IsPlayersTurn { get; private set; } = false;
     public int PlayerIndex { get; private set; }
@@ -63,6 +65,10 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         {
             throw new ArgumentNullException(nameof(mapperContainer));
         }
+        if (endGamePanelController == null)
+        {
+            throw new ArgumentNullException(nameof(endGamePanelController));
+        }
     }
 
     private void SetHandlers()
@@ -85,6 +91,7 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
     private void Start()
     {
+        endGamePanelController.gameObject.SetActive(false);
         /*panelDisabler.Disable();
         ExecuteAfterDelay(() => endTurnButton.ActiveState = true, 1f);*/
     }
@@ -100,6 +107,11 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         {
             throw new Exception("Trying to get card that doesn't exist in card list");
         }
+    }
+
+    public void HeadToHomeScene()
+    {
+        globalReference.SceneController.LoadScene("HomeScene");
     }
 
     public void HandleEndTurn()
@@ -208,8 +220,14 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
 
     private void HandleGameFinishedNotification(GameFinishedNotification gameFinishedNotification)
     {
-        string finishText = gameFinishedNotification.WinnerPlayerId == PlayerIndex ? "VICTORY" : "DEFEAT";
+        bool isVictory = gameFinishedNotification.WinnerPlayerId == PlayerIndex;
+        string finishText = isVictory ? "VICTORY" : "DEFEAT";
         Debug.Log($"Game is over! Result: {finishText}");
+
+        endGamePanelController.gameObject.SetActive(true);
+        endGamePanelController.Show(isVictory);
+
+
     }
 
     private void HandleAttackNotification(AttackNotification attackNotification)
@@ -245,7 +263,7 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         var attackerBoardSideController = playersControllers[attackingPlayer].boardSideController;
         CardController attackingCardController = attackerBoardSideController.GetCardsController(attackingUnit);
 
-        attackingCardController.Health = attackNotification.TargetRemainingHealth;
+        attackingCardController.Health = attackNotification.AttackerRemainingHealth;
 
         if (attackingCardController.Health <= 0)
         {

@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 289067673}
   - component: {fileID: 289067672}
   - component: {fileID: 289067674}
+  - component: {fileID: 289067675}
   m_Layer: 5
   m_Name: End Game Panel
   m_TagString: Untagged
@@ -536,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.9019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -579,6 +580,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &289067675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289067670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774c5f5e518531f44bd9f67799cbdd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victoryImage: {fileID: 2083714511}
+  defeatImage: {fileID: 1585396537}
+  animator: {fileID: 289067674}
 --- !u!1 &398292155
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +700,7 @@ MonoBehaviour:
   enemiesDataController: {fileID: 2087020051}
   endTurnButton: {fileID: 1578364766419906834}
   mapperContainer: {fileID: 398292156}
+  endGamePanelController: {fileID: 289067675}
 --- !u!1 &413579442
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &413579443
 RectTransform:
   m_ObjectHideFlags: 0
@@ -802,7 +819,7 @@ PrefabInstance:
     - target: {fileID: 1578364766383229759, guid: cdd9c2ac83636a04aac63e3df910fa77,
         type: 3}
       propertyPath: m_Name
-      value: Fancy Button
+      value: Menu Routing Button
       objectReference: {fileID: 0}
     - target: {fileID: 1578364766383229752, guid: cdd9c2ac83636a04aac63e3df910fa77,
         type: 3}
@@ -916,6 +933,11 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 1578364766373547466, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1578364766383229754, guid: cdd9c2ac83636a04aac63e3df910fa77,
         type: 3}
       propertyPath: m_Color.r
@@ -930,6 +952,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.4433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229754, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 398292160}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HeadToHomeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdd9c2ac83636a04aac63e3df910fa77, type: 3}
@@ -1249,7 +1296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3124,7 +3171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4061,7 +4108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2083714512
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4094,7 +4141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
