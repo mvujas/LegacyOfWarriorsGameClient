@@ -65,7 +65,8 @@ public class GlobalReferenceInitializer : MonoBehaviour
         };
         m_globalReference.GameClient = new GameClient(spec);
 
-        m_globalReference.GameClient.OnDisconnect = () => m_globalReference.SceneController.LoadScene("DisconnectedScene");
+        m_globalReference.GameClient.OnDisconnect = () =>
+            m_globalReference.ExecutionQueue.Add(() => m_globalReference.SceneController.LoadScene("DisconnectedScene"));
     }
 
     private void OnDestroy()

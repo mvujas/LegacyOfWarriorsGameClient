@@ -67,6 +67,8 @@ public class GameInitializer : MonoBehaviourWithAddOns
 
         PreparePlayerDatas(gameNotification);
 
+        //Application.Quit();
+
         NotifyReadyStatus();
     }
 

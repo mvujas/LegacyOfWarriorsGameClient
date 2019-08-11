@@ -42,7 +42,7 @@ public class HomeScreenLogic : TemporarySimpleGUIComponent
 
     private void SetCorrectButtonText()
     {
-        findMatchButtonText.SetRegularText(m_isInQueue ? QUIT_QUEUE_TEXT : FIND_MATCH_TEXT);
+        findMatchButtonText.text = m_isInQueue ? QUIT_QUEUE_TEXT : FIND_MATCH_TEXT;
     }
 
     private void Awake()

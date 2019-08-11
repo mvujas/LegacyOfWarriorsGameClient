@@ -702,26 +702,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1578364766373547466, guid: cdd9c2ac83636a04aac63e3df910fa77,
-        type: 3}
-      propertyPath: m_Text
-      value: Registruj se
-      objectReference: {fileID: 0}
-    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HandleRegistrationClick
-      objectReference: {fileID: 0}
-    - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1578364766383229753, guid: cdd9c2ac83636a04aac63e3df910fa77,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2963,12 +2943,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7504870409758551409, guid: d02f81c448fae4f4783f30ea5fe04e1a,
+    - target: {fileID: 7504870411049400211, guid: d02f81c448fae4f4783f30ea5fe04e1a,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7504870411049400211, guid: d02f81c448fae4f4783f30ea5fe04e1a,
+    - target: {fileID: 7504870409758551409, guid: d02f81c448fae4f4783f30ea5fe04e1a,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -3095,7 +3075,7 @@ PrefabInstance:
     - target: {fileID: 4350771661414799048, guid: a124cbee2eda5d943b72c24bff65a785,
         type: 3}
       propertyPath: m_Text
-      value: "Korisi\u010Dko ime"
+      value: "Korisni\u010Dko ime"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a124cbee2eda5d943b72c24bff65a785, type: 3}
