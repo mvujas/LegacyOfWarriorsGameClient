@@ -82,6 +82,7 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
         mapperContainer.RequestMapper.AddHandlerAction<GameFinishedNotification>(HandleGameFinishedNotification);
         mapperContainer.RequestMapper.AddHandlerAction<AttackResponse>(HandleAttackResponse);
         mapperContainer.RequestMapper.AddHandlerAction<AttackNotification>(HandleAttackNotification);
+        mapperContainer.RequestMapper.AddHandlerAction<GameCanceledNotification>(HandleGameCanceledNotification);
     }
 
     private void Awake()
@@ -301,6 +302,11 @@ public class MainGameLogicController : MonoBehaviourWithAddOns
     {
         Debug.Log("Odgovor na zahtev za napad: \n" +
             $"Uspesnost: {response.Successfulness}, poruka: {response.Message}");
+    }
+
+    private void HandleGameCanceledNotification(GameCanceledNotification obj)
+    {
+        HeadToHomeScene();
     }
 
     #endregion
